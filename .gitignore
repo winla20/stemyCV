@@ -1,0 +1,41 @@
+# Local environments and caches
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.cache/
+Ultralytics/
+.yolo/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Source footage, experiment outputs, and downloaded model weights stay local.
+data/
+output/
+models/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+/mobileclip2_b.ts
+*.npz
+*.mp4
+*.mov
+*.webm
+*.ogv
+*.wav
+*.mp3
+
+# Original brainstorm document is reference material, not application source.
+/Iteratively brainstorming....pdf
+*.log
+.DS_Store
+Thumbs.db

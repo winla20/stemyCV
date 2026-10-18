@@ -1,0 +1,97 @@
+{
+  "schema_version": "stemy.workflow.v1",
+  "protocol_status": "inferred_from_video_not_an_authoritative_SOP",
+  "location_status": "provisional_visual_interpretation",
+  "visibility_gap_seconds": 2.0,
+  "minimum_rolling_prediction_presence": 0.6,
+  "recovery_rolling_prediction_presence": 0.8,
+  "minimum_relation_seconds": 0.5,
+  "objects": [
+    {"label":"gloved hand","purpose":"Associate manipulation with the relevant vessel or tool","detector_support":"text_prompt"},
+    {"label":"bottle","purpose":"Track reagent containers; red-liquid appearance is measured separately","detector_support":"text_prompt","identity_requirement":"Readable label or fiducial; color alone does not identify reagent"},
+    {"label":"multiwell plate","purpose":"Track culture-vessel handling, work area and storage transitions","detector_support":"text_prompt","identity_requirement":"Readable plate ID; tracks are temporary"},
+    {"label":"pipette","purpose":"Observe vessel approach and dwell intervals","detector_support":"text_prompt","limitation":"Tip, plunger and liquid movement require closer views"},
+    {"label":"pipette controller","purpose":"Track tool handling separately from installed micropipettes","detector_support":"text_prompt"},
+    {"label":"spray bottle","purpose":"Identify cabinet preparation tools","detector_support":"text_prompt"},
+    {"label":"wipe","purpose":"Observe surface wiping","detector_support":"not_validated; baseline paper-towel prompt produced false positives"},
+    {"label":"bottle cap","purpose":"Measure open-container intervals","detector_support":"not_validated"},
+    {"label":"plate lid","purpose":"Measure uncovered-vessel intervals","detector_support":"not_validated"},
+    {"label":"pipette tip and liquid meniscus","purpose":"Distinguish aspiration, dispense and well-to-well changes","detector_support":"not_validated"},
+    {"label":"microscope / incubator / refrigerator / biosafety cabinet","purpose":"Procedure location; generic equipment segmentation excluded after false positives","detector_support":"provisional_visual_phase_annotations"},
+    {"label":"cells","purpose":"Morphology, growth, differentiation and outcome correlation","detector_support":"requires microscopy recordings; absent from these bench views"}
+  ],
+  "allowed_variations": [],
+  "variation_policy": "Describe measured differences and gaps; do not call them protocol violations without an SOP and validated baseline.",
+  "recordings": {
+    "video-60_singular_display": {
+      "title":"Reagent retrieval and bench placement",
+      "phases":[
+        {"id":"gloves","start_s":0,"end_s":9,"zone":"preparation_bench","description":"Gloves and preparation area","expected":["gloved hand"]},
+        {"id":"refrigerator","start_s":9,"end_s":31,"zone":"cold_storage","description":"Open refrigerator, handle red-liquid bottles, close refrigerator","expected":[]},
+        {"id":"transport","start_s":31,"end_s":44,"zone":"transition","description":"Carry materials between work areas; background walking excluded","expected":[]},
+        {"id":"bench_placement","start_s":44,"end_s":60,"zone":"microscopy_station","description":"Place bottles at bench","expected":[]}
+      ],
+      "visibility_windows":[{"start_s":18,"end_s":28,"label":"bottle"},{"start_s":48,"end_s":54,"label":"bottle"}],
+      "visual_observations":[
+        {"start_s":12,"end_s":30,"action":"refrigerator_access","description":"Refrigerator opens; red-liquid bottles are handled; door is closed. Reagent identities are unresolved."},
+        {"start_s":48,"end_s":54,"action":"bottle_placement","description":"A red-liquid bottle is placed on the bench beside the microscope; another bottle is carried nearby."}
+      ]
+    },
+    "video-102_singular_display": {
+      "title":"Cabinet preparation, plate retrieval and microscope handling",
+      "phases":[
+        {"id":"cabinet_setup","start_s":0,"end_s":29,"zone":"biosafety_cabinet","description":"Cabinet and gloves preparation","expected":[]},
+        {"id":"spray","start_s":29,"end_s":57,"zone":"biosafety_cabinet","description":"Spray-bottle handling around cabinet","expected":["gloved hand"]},
+        {"id":"wipe","start_s":57,"end_s":71,"zone":"biosafety_cabinet","description":"Wipe motion across cabinet surface; wipe detector is unvalidated","expected":["gloved hand"]},
+        {"id":"supply_setup","start_s":71,"end_s":92,"zone":"biosafety_cabinet","description":"Handle supplies and packaging","expected":[]},
+        {"id":"plate_retrieval","start_s":92,"end_s":121,"zone":"incubator","description":"Open incubator and retrieve culture plate","expected":[]},
+        {"id":"microscope","start_s":121,"end_s":180,"zone":"microscopy_station","description":"Carry plate to microscope, position it and adjust instrument","expected":[]}
+      ],
+      "visibility_windows":[{"start_s":33,"end_s":53,"label":"spray bottle"},{"start_s":112,"end_s":131,"label":"multiwell plate"}],
+      "visual_observations":[
+        {"start_s":33,"end_s":54,"action":"cabinet_spray_candidate","description":"Spray bottle is handled and aimed at cabinet surfaces. Chemical identity, coverage and effective decontamination are unverified."},
+        {"start_s":58,"end_s":70,"action":"cabinet_wiping_candidate","description":"Hand with a light-colored wipe moves across the work surface. Surface sterility is not measurable from this view."},
+        {"start_s":99,"end_s":121,"action":"plate_retrieval_candidate","description":"Incubator opens and a labeled multiwell plate is carried away. Persistent plate ID has not been read."},
+        {"start_s":128,"end_s":176,"action":"microscope_inspection_candidate","description":"Plate is positioned at the microscope and instrument controls are handled; cellular images and conclusions are not visible."}
+      ]
+    },
+    "video-108_singular_display": {
+      "title":"Bottle, plate and pipette preparation at cabinet",
+      "phases":[
+        {"id":"approach","start_s":0,"end_s":13,"zone":"transition","description":"Approach cabinet","expected":[]},
+        {"id":"bottle_setup","start_s":13,"end_s":33,"zone":"biosafety_cabinet","description":"Handle bottle and supplies","expected":[]},
+        {"id":"plate_setup","start_s":33,"end_s":64,"zone":"biosafety_cabinet","description":"Handle culture plate and lid","expected":[]},
+        {"id":"tool_unwrap","start_s":64,"end_s":75,"zone":"biosafety_cabinet","description":"Unwrap long pipette","expected":["gloved hand"]},
+        {"id":"bottle_open","start_s":75,"end_s":87,"zone":"biosafety_cabinet","description":"Bottle-cap manipulation","expected":["gloved hand"]},
+        {"id":"plate_work","start_s":87,"end_s":114,"zone":"biosafety_cabinet","description":"Pipette approaches open plate","expected":["multiwell plate"]},
+        {"id":"tool_change","start_s":114,"end_s":139,"zone":"biosafety_cabinet","description":"Handle pipette/controller and bottle","expected":[]},
+        {"id":"plate_work_2","start_s":139,"end_s":163,"zone":"biosafety_cabinet","description":"Further plate and pipette handling","expected":["multiwell plate"]},
+        {"id":"tool_setup_2","start_s":163,"end_s":180,"zone":"biosafety_cabinet","description":"Unwrap/attach pipette and handle bottle","expected":[]}
+      ],
+      "visibility_windows":[{"start_s":14,"end_s":18,"label":"bottle"},{"start_s":77,"end_s":86,"label":"bottle"},{"start_s":91,"end_s":113,"label":"pipette"},{"start_s":139,"end_s":162,"label":"pipette"},{"start_s":120,"end_s":125,"label":"pipette controller"}],
+      "visual_observations":[
+        {"start_s":43,"end_s":61,"action":"plate_lid_handling_candidate","description":"Culture-plate stack and lid are handled at the cabinet; exact plate identity needs review."},
+        {"start_s":77,"end_s":86,"action":"bottle_cap_manipulation_candidate","description":"Both hands manipulate the bottle cap. Exact uncapping/recapping boundaries require closer review."},
+        {"start_s":91,"end_s":113,"action":"pipette_plate_interaction_candidate","description":"Long pipette is positioned into/over the multiwell plate. Aspiration versus dispense and transferred volume are unresolved."},
+        {"start_s":118,"end_s":138,"action":"pipette_bottle_preparation_candidate","description":"Pipette/controller and bottle are handled; attachment and liquid movement need review."},
+        {"start_s":139,"end_s":162,"action":"pipette_plate_interaction_candidate","description":"Further plate/tool interaction; compare well order and dwell only after tip tracking is validated."},
+        {"start_s":167,"end_s":179,"action":"pipette_preparation_candidate","description":"Long pipette/packaging and controller are handled near bottle and plates."}
+      ]
+    },
+    "video-94_singular_display": {
+      "title":"Culture-plate transfer to incubator",
+      "phases":[
+        {"id":"plate_pickup","start_s":0,"end_s":6,"zone":"biosafety_cabinet","description":"Handle plate at cabinet","expected":["multiwell plate"]},
+        {"id":"carry_plate","start_s":6,"end_s":9,"zone":"transition","description":"Carry plate to incubator","expected":["multiwell plate"]},
+        {"id":"incubator_placement","start_s":9,"end_s":16,"zone":"incubator","description":"Open inner door and place plate on shelf","expected":[]},
+        {"id":"incubator_close","start_s":16,"end_s":23,"zone":"incubator","description":"Close inner and outer incubator doors","expected":[]}
+      ],
+      "visibility_windows":[{"start_s":11.5,"end_s":14.5,"label":"multiwell plate"}],
+      "visual_observations":[
+        {"start_s":4,"end_s":8,"action":"plate_pickup_and_carry_candidate","description":"Labeled plate is picked up and carried from cabinet toward incubator."},
+        {"start_s":9,"end_s":15,"action":"incubator_placement_candidate","description":"Inner door opens and a plate is placed on a shelf. Occlusion prevents continuous verification of identity."},
+        {"start_s":16,"end_s":22,"action":"incubator_closure","description":"Inner and outer incubator doors are closed."}
+      ]
+    }
+  }
+}

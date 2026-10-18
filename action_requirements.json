@@ -1,0 +1,26 @@
+{
+  "pipette_mixing": [
+    {"any_of": ["pipette", "micropipette"], "min_frame_fraction": 0.25},
+    {"any_of": ["microcentrifuge tube", "plastic tube"], "min_frame_fraction": 0.5}
+  ],
+  "liquid_transfer": [
+    {"any_of": ["pipette", "micropipette"], "min_frame_fraction": 0.25},
+    {"any_of": ["microcentrifuge tube", "plastic tube"], "min_frame_fraction": 0.5}
+  ],
+  "pipette_positioning": [
+    {"any_of": ["pipette", "micropipette"], "min_frame_fraction": 0.25},
+    {"any_of": ["microcentrifuge tube", "plastic tube"], "min_frame_fraction": 0.5}
+  ],
+  "tube_handling": [
+    {"any_of": ["microcentrifuge tube", "plastic tube", "test tube"], "min_frame_fraction": 0.5}
+  ],
+  "vortex_mixing": [
+    {"any_of": ["vortex mixer"], "min_frame_fraction": 0.5},
+    {"any_of": ["test tube", "plastic tube"], "min_frame_fraction": 0.5}
+  ],
+  "microscope_adjustment": [
+    {"any_of": ["microscope"], "min_frame_fraction": 0.5},
+    {"any_of": ["hand"], "min_frame_fraction": 0.25}
+  ],
+  "no_relevant_action": []
+}

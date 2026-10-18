@@ -1,0 +1,9 @@
+# Direct inference dependencies from the prototype. Install CUDA PyTorch first.
+# This is not a complete transitive lockfile or a newly verified GPU environment.
+ultralytics==8.4.163
+lap==0.5.13
+openai-whisper==20250625
+transformers==4.57.1
+opencv-python==5.0.0.93
+numpy>=1.26,<3
+Pillow>=10,<13

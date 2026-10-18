@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SteMy raw workflow candidate event v1",
+  "description": "Contract for events.jsonl before operator review. Additional method-specific fields are retained. End > start and recording bounds require semantic validation.",
+  "type": "object",
+  "required": ["schema_version", "event_id", "recording_id", "source_sha256", "record_type", "action", "description", "start_s", "end_s", "basis", "event_confidence", "review_status", "memory_status", "persistent_sample_id", "evidence"],
+  "properties": {
+    "schema_version": {"const": "stemy.workflow.event.v1"},
+    "event_id": {"type": "string", "minLength": 1},
+    "recording_id": {"type": "string", "minLength": 1},
+    "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "record_type": {"enum": ["object_relation_candidate", "visual_interpretation_candidate", "visibility_prompt_candidate", "reported_response_candidate"]},
+    "action": {"type": "string", "minLength": 1},
+    "label": {"type": "string", "minLength": 1},
+    "description": {"type": "string", "minLength": 1},
+    "start_s": {"type": "number", "minimum": 0},
+    "end_s": {"type": "number", "exclusiveMinimum": 0},
+    "duration_s": {"type": "number", "minimum": 0},
+    "trigger_s": {"type": "number", "minimum": 0},
+    "basis": {"type": "string", "minLength": 1},
+    "event_confidence": {"type": "null", "description": "v1 has no calibrated action confidence."},
+    "review_status": {"const": "unreviewed"},
+    "memory_status": {"const": "pending_review"},
+    "persistent_sample_id": {"type": "null"},
+    "track_ids": {"type": "array", "items": {"type": "string"}},
+    "median_detector_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "evidence": {
+      "type": "object",
+      "required": ["video", "start_s", "end_s"],
+      "properties": {
+        "video": {"type": "string", "minLength": 1},
+        "start_s": {"type": "number", "minimum": 0},
+        "end_s": {"type": "number", "exclusiveMinimum": 0}
+      }
+    }
+  },
+  "allOf": [{"if": {"properties": {"record_type": {"const": "visibility_prompt_candidate"}}}, "then": {"required": ["trigger_s", "label"]}}]
+}

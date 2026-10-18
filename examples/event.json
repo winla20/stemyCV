@@ -1,0 +1,22 @@
+{
+  "schema_version": "stemy.workflow.event.v1",
+  "event_id": "synthetic_recording:e_example",
+  "recording_id": "synthetic_recording",
+  "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "record_type": "object_relation_candidate",
+  "action": "vessel_motion_near_hand",
+  "description": "Synthetic integration example: plate motion near a hand. No real experiment is represented.",
+  "start_s": 2.0,
+  "end_s": 3.0,
+  "duration_s": 1.0,
+  "location": "biosafety_cabinet",
+  "track_ids": ["synthetic_recording:z0:t1"],
+  "supporting_frames": 30,
+  "median_detector_score": 0.7,
+  "event_confidence": null,
+  "basis": "tracked_boxes_and_masks; geometric_proximity_does_not_prove_contact_or_liquid_transfer",
+  "review_status": "unreviewed",
+  "memory_status": "pending_review",
+  "persistent_sample_id": null,
+  "evidence": {"video": "source_browser.mp4", "start_s": 2.0, "end_s": 3.0}
+}

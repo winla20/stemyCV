@@ -1,0 +1,9 @@
+{
+  "pipette_mixing": "A person mixes liquid by moving a pipette up and down inside one tube.",
+  "liquid_transfer": "A person transfers liquid with a pipette from one tube into another tube.",
+  "pipette_positioning": "A person holds a pipette over a tube without moving liquid.",
+  "tube_handling": "A person holds a tube of liquid in one hand without mixing it.",
+  "vortex_mixing": "A person shakes a tube of liquid by holding it against a vibrating laboratory mixer.",
+  "microscope_adjustment": "A person adjusts a microscope with one hand.",
+  "no_relevant_action": "A person stands near laboratory equipment without using it."
+}
