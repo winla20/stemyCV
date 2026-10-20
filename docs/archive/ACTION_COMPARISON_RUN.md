@@ -10,7 +10,7 @@ X-CLIP scored three 3-second windows (5–8, 11–14, 17–20 s) against the sam
 
 `infer_interactions.py` instead examined tracked boxes for a tube bottom repeatedly near the top of the mixer. It produced two distinct, reviewable interaction intervals: **10.133–13.067 s** (11 sampled frames) and **14.400–16.534 s** (8 sampled frames). A gloved hand was near the tube in every supporting frame. The emitted relation is `tube_bottom_near_vortex_mixer_top`, with an action hypothesis of `vortex_mixing`. It does not prove that the motor was running or that the liquid was mixed.
 
-The [viewer](output/vortex_shaker_yoloe26s/viewer.html) links model rankings and interaction intervals to the annotated video. Raw candidates are in [actions.jsonl](output/vortex_shaker_yoloe26s/actions.jsonl) and [interactions.jsonl](output/vortex_shaker_yoloe26s/interactions.jsonl). The first X-CLIP wording is preserved in `actions_initial.jsonl`.
+The locally generated `output/vortex_shaker_yoloe26s/viewer.html` links model rankings and interaction intervals to the annotated video. Raw candidates are in that folder's `actions.jsonl` and `interactions.jsonl`; these generated artifacts are not committed. The first X-CLIP wording is preserved in `actions_initial.jsonl`.
 
 ## Decision from this test
 

@@ -1,6 +1,7 @@
 """Validate source syntax and the raw-event contract without loading any ML model."""
 import argparse
 import ast
+import hashlib
 import json
 from pathlib import Path
 import subprocess
@@ -30,6 +31,18 @@ def main():
         ast.parse(path.read_text(encoding='utf-8-sig'), filename=str(path))
     for path in ROOT.glob('*.json'):
         json.loads(path.read_text(encoding='utf-8'))
+    demo = ROOT / 'data/demo'
+    inputs = json.loads((demo / 'manifest.json').read_text(encoding='utf-8'))['files']
+    configured = set(json.loads((ROOT / 'workflow_config.json').read_text())['recordings'])
+    if {Path(entry['filename']).stem for entry in inputs} != configured:
+        raise ValueError('Bundled recordings do not match the demo configuration')
+    for entry in inputs:
+        path = demo / entry['filename']
+        if path.stat().st_size != entry['size_bytes']:
+            raise ValueError(f'Bundled video size mismatch: {path.name}')
+        with path.open('rb') as stream:
+            if hashlib.file_digest(stream, 'sha256').hexdigest() != entry['sha256']:
+                raise ValueError(f'Bundled video hash mismatch: {path.name}')
     schema = json.loads((ROOT / 'schemas/event.schema.json').read_text(encoding='utf-8'))
     Draft202012Validator.check_schema(schema)
     validator = Draft202012Validator(schema)
@@ -50,7 +63,7 @@ def main():
     html = (ROOT / 'workflow_viewer.html').read_text(encoding='utf-8')
     script = html.rsplit('<script>', 1)[1].split('</script>', 1)[0]
     subprocess.run(['node', '--check'], input=script, text=True, check=True)
-    print(f'Passed: {len(sources)} Python files, JSON config, event schema/example, viewer JS; {count} supplied events')
+    print(f'Passed: {len(sources)} Python files, JSON config, {len(inputs)} bundled video hashes, event schema/example, viewer JS; {count} supplied events')
 
 
 if __name__ == '__main__':

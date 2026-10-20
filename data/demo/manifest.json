@@ -1,0 +1,25 @@
+{
+  "schema_version": "stemy.demo_inputs.v1",
+  "files": [
+    {
+      "filename": "video-102_singular_display.mov",
+      "size_bytes": 31493492,
+      "sha256": "9224433daf27f146f88a3957d263e2bbb88b9f0952a424b5d11aca7bb7770635"
+    },
+    {
+      "filename": "video-108_singular_display.mov",
+      "size_bytes": 31439193,
+      "sha256": "fb902972c25bd59ab9f319e9cc6d892b041165562ebfe1a70371274f76847ead"
+    },
+    {
+      "filename": "video-60_singular_display.mov",
+      "size_bytes": 10374237,
+      "sha256": "3727a05aa189b3f1a0e35d04c64acd9f480376c5c440de4db08fed15a99cc946"
+    },
+    {
+      "filename": "video-94_singular_display.mov",
+      "size_bytes": 3821526,
+      "sha256": "fd0c6b51521e34c40a9a37e0709de8d3f67566d4e17b036b08f3fb826f7903fd"
+    }
+  ]
+}

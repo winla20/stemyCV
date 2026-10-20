@@ -17,8 +17,10 @@ Ultralytics/
 *.pem
 *.key
 
-# Source footage, experiment outputs, and downloaded model weights stay local.
-data/
+# Only the four bundled demo recordings are tracked; other data stays local.
+data/*
+!data/demo/
+data/demo/*
 output/
 models/
 *.pt
@@ -33,6 +35,13 @@ models/
 *.ogv
 *.wav
 *.mp3
+
+!data/demo/video-60_singular_display.mov
+!data/demo/video-94_singular_display.mov
+!data/demo/video-102_singular_display.mov
+!data/demo/video-108_singular_display.mov
+!data/demo/README.md
+!data/demo/manifest.json
 
 # Original brainstorm document is reference material, not application source.
 /Iteratively brainstorming....pdf

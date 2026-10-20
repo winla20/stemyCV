@@ -14,7 +14,7 @@ def main():
     p.add_argument('--root',type=Path,default=Path('output/real_workflow'))
     p.add_argument('--device',default='cpu')
     args=p.parse_args();torch.set_num_threads(4)
-    model=whisper.load_model(str(Path('models/base.en.pt')),device=args.device)
+    model=whisper.load_model('base.en',device=args.device,download_root='models')
     ffmpeg=shutil.which('ffmpeg') or str(Path.home()/'AppData/Local/Programs/Stremio/ffmpeg.exe')
     for source in sorted(args.root.glob('*/source_browser.mp4')):
         target=source.parent/'transcript.json'

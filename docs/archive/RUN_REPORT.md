@@ -34,7 +34,7 @@ Next comparison: use a fixed, sharper close-up and a procedure-specific work are
 
 ## Real SteMy workflow extraction: 2026-10-09
 
-Processed all four provided recordings locally: 13,243 timestamp-normalized frames, about 7 minutes 21 seconds of video. Original files in Downloads are unchanged. Review copies retain audio and 30 fps playback; every normalized video frame receives a direct YOLOE-26s-seg prediction. The main viewer is `output/real_workflow/index.html`.
+Processed all four provided recordings locally: 13,243 timestamp-normalized frames, about 7 minutes 21 seconds of video. The original recordings are now bundled in `data/demo/`. Review copies retain audio and 30 fps playback; every normalized video frame receives a direct YOLOE-26s-seg prediction. The main viewer is `output/real_workflow/index.html`.
 
 | Recording | Inferred procedure | Analyzed frames | Evidence records |
 | --- | --- | ---: | ---: |

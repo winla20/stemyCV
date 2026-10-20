@@ -17,7 +17,7 @@ def main():
     model = YOLOE('yoloe-26s-seg.pt')
     model.set_classes(LABELS)
     records = []
-    for source in sorted(Path(r'C:\Users\happy\Downloads\stemy vids').glob('*.mov')):
+    for source in sorted((Path(__file__).resolve().parent/'data/demo').glob('*.mov')):
         key = source.stem.split('_')[0]
         cap = cv2.VideoCapture(str(source))
         sheet = Image.new('RGB', (3*480, 2*670), '#111827')
