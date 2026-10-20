@@ -1,5 +1,6 @@
 """Repeat the local SteMy workflow extraction and build its evidence-review interface."""
 import argparse
+import json
 from pathlib import Path
 import subprocess
 import sys
@@ -31,7 +32,8 @@ def main():
         raise SystemExit(f'No .mov recordings found in {source_dir}')
     def run(script,*arguments):
         subprocess.run([sys.executable,str(ROOT/script),*map(str,arguments)],cwd=ROOT,check=True)
-    run('prepare_workflow.py',source_dir,'--output',output)
+    color_policy=json.loads(config.read_text(encoding='utf-8')).get('review_color_policy','preserve')
+    run('prepare_workflow.py',source_dir,'--output',output,'--color-policy',color_policy)
     batch=['--batch-size',args.batch_size] if args.batch_size is not None else []
     run('workflow_extract.py','--root',output,'--config',config,'--resume','--device',args.device,*batch)
     if not args.skip_transcription:run('workflow_transcribe.py','--root',output,'--device',args.speech_device)

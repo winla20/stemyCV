@@ -47,10 +47,18 @@
     "original_path": "data/demo/video-60_singular_display.mov",
     "original_sha256": "3727a05aa189b3f1a0e35d04c64acd9f480376c5c440de4db08fed15a99cc946",
     "review_video": "demo_results/video-60_singular_display/source_browser.mp4",
-    "review_video_sha256": "a5c7b73e0f05d33a724ff9fee176f5d098947d63a4a496ccad6048a40b415c97",
+    "review_video_sha256": "78f6e83b45f3da9dd9f6783ebe0a65769fb363062255210a6a528c5f96f7b536",
     "review_fps": 30,
     "recording_time_from_metadata": "2026-10-09T20:39:29Z",
     "timestamp_basis": "Seconds in timestamp-normalized 30 fps review copy; audio retained. Source recordings are unchanged.",
+    "review_color_policy": "reinterpret_sdr_bt709",
+    "review_color_correction": {
+      "policy": "reinterpret_sdr_bt709",
+      "previous_review_video_sha256": "a5c7b73e0f05d33a724ff9fee176f5d098947d63a4a496ccad6048a40b415c97",
+      "decoded_frames_and_audio_timing_signature_sha256": "8d01821a6c90d9c0a01f9ab83e5cfe588fb382e7bb4c6c20874932e7697fd5e6",
+      "decoded_frames_audio_and_timestamps_identical": true,
+      "method": "H.264 VUI and MP4 color metadata only; no pixel re-encoding or tone mapping"
+    },
     "path_basis": "repository_root"
   },
   "protocol_status": "inferred_from_video_not_an_authoritative_SOP",
@@ -70,5 +78,6 @@
   "host_model_device": "cpu",
   "detector_device": "cuda:0",
   "peak_cuda_allocated_mb": 383.3,
-  "cuda_peak_scope": "Process lifetime, including any earlier recordings in that process; excludes other GPU/driver usage."
+  "cuda_peak_scope": "Process lifetime, including any earlier recordings in that process; excludes other GPU/driver usage.",
+  "inference_review_video_sha256": "a5c7b73e0f05d33a724ff9fee176f5d098947d63a4a496ccad6048a40b415c97"
 }

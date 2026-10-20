@@ -36,9 +36,10 @@ class ReplayTests(unittest.TestCase):
 
     def test_video_range_matches_saved_bytes(self):
         name='video-94_singular_display/source_browser.mp4'
-        status,headers,body=self.request('/'+name,{'Range':'bytes=16-31'})
+        status,headers,body=self.request('/'+name+'?v=corrected-video-hash',{'Range':'bytes=16-31'})
         self.assertEqual(status,206)
         self.assertEqual(headers['Content-Length'],'16')
+        self.assertEqual(headers['Cache-Control'],'no-cache')
         with (DEMO/name).open('rb') as stream:
             stream.seek(16)
             self.assertEqual(body,stream.read(16))

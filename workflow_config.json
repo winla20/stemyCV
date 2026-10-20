@@ -1,5 +1,6 @@
 {
   "schema_version": "stemy.workflow.v1",
+  "review_color_policy": "reinterpret_sdr_bt709",
   "protocol_status": "inferred_from_video_not_an_authoritative_SOP",
   "location_status": "provisional_visual_interpretation",
   "visibility_gap_seconds": 2.0,

@@ -49,6 +49,7 @@ class ReplayHandler(SimpleHTTPRequestHandler):
         self.send_response(206 if request_range else 200)
         self.send_header('Content-Type','application/x-ndjson' if path.suffix=='.jsonl' else self.guess_type(str(path)))
         self.send_header('Accept-Ranges','bytes')
+        self.send_header('Cache-Control','no-cache')
         self.send_header('Content-Length',str(end-start+1))
         self.send_header('Last-Modified',self.date_time_string(path.stat().st_mtime))
         if request_range:self.send_header('Content-Range',f'bytes {start}-{end}/{size}')

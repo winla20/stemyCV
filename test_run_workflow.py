@@ -11,6 +11,7 @@ class WorkflowEntryTests(unittest.TestCase):
             run_workflow.main()
         first = execute.call_args_list[0]
         self.assertEqual(first.args[0][2], str(run_workflow.ROOT / 'data/demo'))
+        self.assertEqual(first.args[0][first.args[0].index('--color-policy')+1],'reinterpret_sdr_bt709')
         self.assertTrue(all(call.kwargs['cwd'] == run_workflow.ROOT for call in execute.call_args_list))
         self.assertFalse(any('workflow_transcribe.py' in str(call.args[0]) for call in execute.call_args_list))
 

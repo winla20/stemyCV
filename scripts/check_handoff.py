@@ -55,6 +55,16 @@ def main():
         with path.open('rb') as stream:
             if path.stat().st_size!=entry['size_bytes'] or hashlib.file_digest(stream,'sha256').hexdigest()!=entry['sha256']:
                 raise ValueError(f'Processed artifact mismatch: {path.name}')
+            if path.name=='source_browser.mp4':
+                stream.seek(0)
+                # Faststart places MP4 colr/nclx in the opening moov atom.
+                # Primaries/transfer/matrix must all be BT.709, with limited range.
+                if b'nclx\x00\x01\x00\x01\x00\x01\x00' not in stream.read(1024*1024):
+                    raise ValueError(f'SDR playback color tags missing: {path}')
+        if path.name=='source_manifest.json':
+            provenance=json.loads(path.read_text(encoding='utf-8'))
+            if provenance.get('review_color_policy')!='reinterpret_sdr_bt709':
+                raise ValueError(f'Unexpected demo color policy: {path}')
         if path.name=='events.jsonl':
             for line in path.read_text(encoding='utf-8').splitlines():
                 validate_event(json.loads(line),validator)

@@ -3,9 +3,17 @@
   "original_path": "data/demo/video-102_singular_display.mov",
   "original_sha256": "9224433daf27f146f88a3957d263e2bbb88b9f0952a424b5d11aca7bb7770635",
   "review_video": "demo_results/video-102_singular_display/source_browser.mp4",
-  "review_video_sha256": "fbd59e7c62649b3aefcaf4eb8d2030f4c6fd8b01dd2510e76c5f207563644ea6",
+  "review_video_sha256": "2fe876dddcc5de70b41bf780241dc3c81ffe8c3417b418c9e541cf7ea753e697",
   "review_fps": 30,
   "recording_time_from_metadata": "2026-10-09T21:30:11Z",
   "timestamp_basis": "Seconds in timestamp-normalized 30 fps review copy; audio retained. Source recordings are unchanged.",
+  "review_color_policy": "reinterpret_sdr_bt709",
+  "review_color_correction": {
+    "policy": "reinterpret_sdr_bt709",
+    "previous_review_video_sha256": "fbd59e7c62649b3aefcaf4eb8d2030f4c6fd8b01dd2510e76c5f207563644ea6",
+    "decoded_frames_and_audio_timing_signature_sha256": "ce9f94553a2f5b8c528ce194683ddcde7ec603a3f30d1ce9e94b10f11005857d",
+    "decoded_frames_audio_and_timestamps_identical": true,
+    "method": "H.264 VUI and MP4 color metadata only; no pixel re-encoding or tone mapping"
+  },
   "path_basis": "repository_root"
 }
