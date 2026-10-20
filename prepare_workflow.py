@@ -3,9 +3,9 @@ import argparse
 import hashlib
 import json
 import re
-import shutil
 import subprocess
 from pathlib import Path
+from workflow_runtime import find_ffmpeg
 
 
 def main():
@@ -14,7 +14,7 @@ def main():
     p.add_argument('--output', type=Path, default=Path('output/real_workflow'))
     args = p.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
-    ffmpeg = shutil.which('ffmpeg') or str(Path.home()/'AppData/Local/Programs/Stremio/ffmpeg.exe')
+    ffmpeg = find_ffmpeg()
     manifest = []
     for source in sorted(args.source_dir.glob('*.mov')):
         folder = args.output/source.stem

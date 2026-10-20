@@ -1,0 +1,49 @@
+{
+  "model": "sam2.1_t.pt",
+  "semantic_label": "multiwell plate",
+  "start_s": 1.9666666666666666,
+  "end_s": 16.0,
+  "processed_fps": 30,
+  "frames": 421,
+  "processing_s": 89.6,
+  "processing_throughput_fps": 4.7,
+  "initialization": {
+    "frame_index": 59,
+    "bbox_xyxy": [
+      323.2,
+      800.3,
+      476.4,
+      959.2
+    ],
+    "detector_score": 0.6387,
+    "track_id": "video-94_singular_display:z0:t14"
+  },
+  "peak_cuda_allocated_mb": 449.3,
+  "mask_presence_frames": 194,
+  "review_status": "unreviewed",
+  "limitations": [
+    "Temporal mask presence is not verified tracking accuracy.",
+    "The predictor returns constant quality placeholders; these are omitted rather than reported as confidence.",
+    "Occlusion and new similar plates can cause drift; this comparison does not establish persistent identity.",
+    "Temporal masks are a separate comparison and do not overwrite detector evidence or clear visibility alerts."
+  ],
+  "selected_visual_checks": [
+    {
+      "time_s": 2,
+      "observation": "Both masks cover the plate; unreviewed visual check."
+    },
+    {
+      "time_s": 5,
+      "observation": "Both masks cover the handled plate; unreviewed visual check."
+    },
+    {
+      "time_s": 8,
+      "observation": "SAM follows the carried plate; YOLOE misses it."
+    },
+    {
+      "time_s": 13.5,
+      "observation": "YOLOE plate mask covers background shelf; SAM has no target mask."
+    }
+  ],
+  "quality_assessment": "Promising for carry continuity; fails to reacquire after occlusion. Not validated for persistent sample identity."
+}

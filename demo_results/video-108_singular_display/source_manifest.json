@@ -1,0 +1,11 @@
+{
+  "recording_id": "video-108_singular_display",
+  "original_path": "data/demo/video-108_singular_display.mov",
+  "original_sha256": "fb902972c25bd59ab9f319e9cc6d892b041165562ebfe1a70371274f76847ead",
+  "review_video": "demo_results/video-108_singular_display/source_browser.mp4",
+  "review_video_sha256": "03076d8af5a247240c70bde768f73b03c3d857b5755bc03c507974c84afd89f5",
+  "review_fps": 30,
+  "recording_time_from_metadata": "2026-10-09T21:33:24Z",
+  "timestamp_basis": "Seconds in timestamp-normalized 30 fps review copy; audio retained. Source recordings are unchanged.",
+  "path_basis": "repository_root"
+}

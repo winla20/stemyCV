@@ -2,8 +2,8 @@
 import argparse
 import json
 from pathlib import Path
-import shutil
 import subprocess
+from workflow_runtime import select_device, find_ffmpeg
 import numpy as np
 import torch
 import whisper
@@ -12,17 +12,20 @@ import whisper
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--root',type=Path,default=Path('output/real_workflow'))
-    p.add_argument('--device',default='cpu')
+    p.add_argument('--device',default='auto')
     args=p.parse_args();torch.set_num_threads(4)
-    model=whisper.load_model('base.en',device=args.device,download_root='models')
-    ffmpeg=shutil.which('ffmpeg') or str(Path.home()/'AppData/Local/Programs/Stremio/ffmpeg.exe')
+    args.device=select_device(args.device,allow_mps=False)
+    print(f'Whisper: {args.device}',flush=True)
+    model=None
+    ffmpeg=find_ffmpeg()
     for source in sorted(args.root.glob('*/source_browser.mp4')):
         target=source.parent/'transcript.json'
         if target.exists():continue
+        if model is None:model=whisper.load_model('base.en',device=args.device,download_root='models')
         raw=subprocess.run([ffmpeg,'-nostdin','-hide_banner','-loglevel','error','-i',str(source),'-f','f32le','-ac','1','-ar','16000','pipe:1'],capture_output=True,check=True).stdout
         samples=np.frombuffer(raw,dtype=np.float32).copy()
         print(f'Transcribing {source.parent.name}',flush=True)
-        result=model.transcribe(samples,language='en',fp16=args.device!='cpu',verbose=False,condition_on_previous_text=False)
+        result=model.transcribe(samples,language='en',fp16=args.device.startswith('cuda'),verbose=False,condition_on_previous_text=False)
         segments=[]
         for segment in result['segments']:
             uncertain=segment['no_speech_prob']>.6 or segment['avg_logprob']<-1 or segment['compression_ratio']>2.4

@@ -3,11 +3,13 @@ from collections import Counter
 import json
 import hashlib
 from pathlib import Path
-import subprocess
+import argparse
 
 
 def main():
-    root=Path('output/real_workflow');reports=[]
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--root',type=Path,default=Path('output/real_workflow'))
+    root=parser.parse_args().root;reports=[]
     for folder in sorted(root.glob('*_singular_display')):
         manifest_path=folder/'source_manifest.json'
         if manifest_path.exists():
@@ -54,7 +56,7 @@ def main():
     html=Path('workflow_viewer.html').read_text(encoding='utf-8')
     script=html.rsplit('<script>',1)[1].split('</script>',1)[0]
     script_path=root/'viewer_check.js';script_path.write_text(script,encoding='utf-8')
-    subprocess.run(['node','--check',str(script_path)],check=True)
+    # JS syntax is checked by scripts/check_handoff.py in development/CI.
     print(json.dumps(reports,indent=2))
 
 

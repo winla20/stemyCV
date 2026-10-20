@@ -1,4 +1,4 @@
-# Direct inference dependencies from the prototype. Install CUDA PyTorch first.
+# Install the PyTorch build for your platform first (see README).
 # This is not a complete transitive lockfile or a newly verified GPU environment.
 ultralytics==8.4.163
 lap==0.5.13

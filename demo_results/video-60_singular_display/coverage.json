@@ -1,0 +1,38 @@
+[
+  {
+    "label": "gloved hand",
+    "start_s": 0,
+    "end_s": 9,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "gloves",
+    "evaluated_frames": 270,
+    "frames_with_class_prediction": 157,
+    "prediction_presence_fraction": 0.5815,
+    "longest_no_prediction_gap_s": 2.2,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 18,
+    "end_s": 28,
+    "label": "bottle",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 300,
+    "frames_with_class_prediction": 300,
+    "prediction_presence_fraction": 1.0,
+    "longest_no_prediction_gap_s": 0,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 48,
+    "end_s": 54,
+    "label": "bottle",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 180,
+    "frames_with_class_prediction": 124,
+    "prediction_presence_fraction": 0.6889,
+    "longest_no_prediction_gap_s": 0.733,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  }
+]

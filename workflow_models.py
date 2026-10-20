@@ -1,6 +1,7 @@
 """Load workflow detectors, optionally using a few recorded visual exemplars."""
 import os
 from pathlib import Path
+from workflow_runtime import select_device
 os.environ.setdefault('YOLO_CONFIG_DIR', str(Path(__file__).parent/'Ultralytics'))
 import numpy as np
 import torch
@@ -13,7 +14,8 @@ REFERENCE = Path('output/real_workflow/probe/video-108_110.jpg')
 REFERENCE_BOXES = [[173, 657, 371, 954], [177, 491, 289, 716], [337, 726, 523, 869]]
 
 
-def load_detector(mode='text', image_size=640):
+def load_detector(mode='text', image_size=640, device='auto'):
+    device = select_device(device)
     model = YOLOE('yoloe-26s-seg.pt')
     if mode == 'visual':
         cached = Path('output/real_workflow/visual_prompts.npz')
@@ -22,7 +24,7 @@ def load_detector(mode='text', image_size=640):
         else:
             # Text encoder is invoked before switching the detector to FP16.
             text_pe = model.get_text_pe(LABELS[3:]).detach()
-            model.predict(str(REFERENCE), refer_image=str(REFERENCE), visual_prompts={'bboxes':np.array(REFERENCE_BOXES), 'cls':np.arange(3)}, predictor=YOLOEVPSegPredictor, device=0, imgsz=image_size, verbose=False)
+            model.predict(str(REFERENCE), refer_image=str(REFERENCE), visual_prompts={'bboxes':np.array(REFERENCE_BOXES), 'cls':np.arange(3)}, predictor=YOLOEVPSegPredictor, device=device, imgsz=image_size, verbose=False)
             visual_pe = model.model.pe.detach()
             embeddings = torch.cat([visual_pe.float(),text_pe.to(visual_pe.device).float()],dim=1)
             model.set_classes(LABELS, embeddings)

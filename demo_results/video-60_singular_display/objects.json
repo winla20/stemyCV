@@ -1,0 +1,4007 @@
+[
+  {
+    "track_id": "video-60_singular_display:z0:t2",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 3.0667,
+    "last_seen_s": 3.7667,
+    "observed_frames": 17,
+    "observation_intervals": [
+      {
+        "start_s": 3.0667,
+        "end_s": 3.1666
+      },
+      {
+        "start_s": 3.3,
+        "end_s": 3.5
+      },
+      {
+        "start_s": 3.5333,
+        "end_s": 3.8
+      }
+    ],
+    "median_detector_score": 0.3867,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 3.1,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 17
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z0:t7",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 3.9333,
+    "last_seen_s": 4.1667,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 3.9333,
+        "end_s": 4.0666
+      },
+      {
+        "start_s": 4.1667,
+        "end_s": 4.2
+      }
+    ],
+    "median_detector_score": 0.291,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 3.9333,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z0:t9",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 4.2667,
+    "last_seen_s": 4.5333,
+    "observed_frames": 9,
+    "observation_intervals": [
+      {
+        "start_s": 4.2667,
+        "end_s": 4.5666
+      }
+    ],
+    "median_detector_score": 0.5679,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 4.2667,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 9
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z0:t13",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 4.6,
+    "last_seen_s": 8.1333,
+    "observed_frames": 106,
+    "observation_intervals": [
+      {
+        "start_s": 4.6,
+        "end_s": 6.6666
+      },
+      {
+        "start_s": 6.7,
+        "end_s": 8.1666
+      }
+    ],
+    "median_detector_score": 0.6197,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 7.0333,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 106
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z0:t15",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 4.6667,
+    "last_seen_s": 8.1333,
+    "observed_frames": 102,
+    "observation_intervals": [
+      {
+        "start_s": 4.6667,
+        "end_s": 5.1333
+      },
+      {
+        "start_s": 5.1667,
+        "end_s": 7.2333
+      },
+      {
+        "start_s": 7.3,
+        "end_s": 8.1666
+      }
+    ],
+    "median_detector_score": 0.4253,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 6.9,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 102
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z0:t18",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 5.7667,
+    "last_seen_s": 6.1333,
+    "observed_frames": 12,
+    "observation_intervals": [
+      {
+        "start_s": 5.7667,
+        "end_s": 6.1666
+      }
+    ],
+    "median_detector_score": 0.2599,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 5.7667,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 12
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z0:t22",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 8.4667,
+    "last_seen_s": 8.5333,
+    "observed_frames": 3,
+    "observation_intervals": [
+      {
+        "start_s": 8.4667,
+        "end_s": 8.5666
+      }
+    ],
+    "median_detector_score": 0.2554,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 8.4667,
+    "locations": [
+      "preparation_bench"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 3
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t1",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 10.3,
+    "last_seen_s": 10.9,
+    "observed_frames": 18,
+    "observation_intervals": [
+      {
+        "start_s": 10.3,
+        "end_s": 10.8666
+      },
+      {
+        "start_s": 10.9,
+        "end_s": 10.9333
+      }
+    ],
+    "median_detector_score": 0.5794,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 10.3333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 18
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t4",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 10.3333,
+    "last_seen_s": 11.6667,
+    "observed_frames": 41,
+    "observation_intervals": [
+      {
+        "start_s": 10.3333,
+        "end_s": 11.7
+      }
+    ],
+    "median_detector_score": 0.5679,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 11.1,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 41
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t9",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 10.9667,
+    "last_seen_s": 11.1333,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 10.9667,
+        "end_s": 11.1666
+      }
+    ],
+    "median_detector_score": 0.3587,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 10.9667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t17",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 11.5667,
+    "last_seen_s": 11.8,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 11.5667,
+        "end_s": 11.8333
+      }
+    ],
+    "median_detector_score": 0.6021,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 11.7,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 8
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t23",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 11.9667,
+    "last_seen_s": 12.2,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 11.9667,
+        "end_s": 12.2333
+      }
+    ],
+    "median_detector_score": 0.4717,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 11.9667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 8
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t42",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 14.1,
+    "last_seen_s": 14.2333,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 14.1,
+        "end_s": 14.2666
+      }
+    ],
+    "median_detector_score": 0.3811,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 14.1333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t45",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 14.1667,
+    "last_seen_s": 14.4667,
+    "observed_frames": 9,
+    "observation_intervals": [
+      {
+        "start_s": 14.1667,
+        "end_s": 14.2
+      },
+      {
+        "start_s": 14.2333,
+        "end_s": 14.5
+      }
+    ],
+    "median_detector_score": 0.4207,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 14.2667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 9
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t48",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 14.3,
+    "last_seen_s": 14.4,
+    "observed_frames": 4,
+    "observation_intervals": [
+      {
+        "start_s": 14.3,
+        "end_s": 14.4333
+      }
+    ],
+    "median_detector_score": 0.385,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 14.3333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 4
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t60",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 15.4667,
+    "last_seen_s": 17.0667,
+    "observed_frames": 46,
+    "observation_intervals": [
+      {
+        "start_s": 15.4667,
+        "end_s": 15.7666
+      },
+      {
+        "start_s": 15.8667,
+        "end_s": 17.1
+      }
+    ],
+    "median_detector_score": 0.3328,
+    "median_red_pixel_fraction": 0.4764,
+    "evidence_time_s": 16.6667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 46
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t69",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 15.6667,
+    "last_seen_s": 15.8,
+    "observed_frames": 4,
+    "observation_intervals": [
+      {
+        "start_s": 15.6667,
+        "end_s": 15.7333
+      },
+      {
+        "start_s": 15.7667,
+        "end_s": 15.8333
+      }
+    ],
+    "median_detector_score": 0.3905,
+    "median_red_pixel_fraction": 0.7044,
+    "evidence_time_s": 15.8,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 4
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t78",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 15.8333,
+    "last_seen_s": 16.4667,
+    "observed_frames": 16,
+    "observation_intervals": [
+      {
+        "start_s": 15.8333,
+        "end_s": 15.9
+      },
+      {
+        "start_s": 15.9333,
+        "end_s": 16.2
+      },
+      {
+        "start_s": 16.3,
+        "end_s": 16.5
+      }
+    ],
+    "median_detector_score": 0.2959,
+    "median_red_pixel_fraction": 0.6577,
+    "evidence_time_s": 15.9333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 16
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t89",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 16.0667,
+    "last_seen_s": 16.4667,
+    "observed_frames": 12,
+    "observation_intervals": [
+      {
+        "start_s": 16.0667,
+        "end_s": 16.4
+      },
+      {
+        "start_s": 16.4333,
+        "end_s": 16.5
+      }
+    ],
+    "median_detector_score": 0.4408,
+    "median_red_pixel_fraction": 0.3565,
+    "evidence_time_s": 16.2333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 12
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t91",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 16.0667,
+    "last_seen_s": 27.5,
+    "observed_frames": 319,
+    "observation_intervals": [
+      {
+        "start_s": 16.0667,
+        "end_s": 18.8666
+      },
+      {
+        "start_s": 19.1,
+        "end_s": 19.2333
+      },
+      {
+        "start_s": 19.3,
+        "end_s": 19.3333
+      },
+      {
+        "start_s": 19.3667,
+        "end_s": 19.7666
+      },
+      {
+        "start_s": 19.8333,
+        "end_s": 20.0333
+      },
+      {
+        "start_s": 20.1,
+        "end_s": 20.1666
+      },
+      {
+        "start_s": 20.3,
+        "end_s": 21.6333
+      },
+      {
+        "start_s": 21.6667,
+        "end_s": 27.2666
+      },
+      {
+        "start_s": 27.4333,
+        "end_s": 27.4666
+      },
+      {
+        "start_s": 27.5,
+        "end_s": 27.5333
+      }
+    ],
+    "median_detector_score": 0.5947,
+    "median_red_pixel_fraction": 0.5302,
+    "evidence_time_s": 18.5,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 319
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t119",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 16.9,
+    "last_seen_s": 17.0667,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 16.9,
+        "end_s": 17.1
+      }
+    ],
+    "median_detector_score": 0.3261,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 16.9333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t121",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 16.9333,
+    "last_seen_s": 20.5333,
+    "observed_frames": 109,
+    "observation_intervals": [
+      {
+        "start_s": 16.9333,
+        "end_s": 20.5666
+      }
+    ],
+    "median_detector_score": 0.4148,
+    "median_red_pixel_fraction": 0.6403,
+    "evidence_time_s": 20.3,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 109
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t131",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 17.3667,
+    "last_seen_s": 18.4667,
+    "observed_frames": 33,
+    "observation_intervals": [
+      {
+        "start_s": 17.3667,
+        "end_s": 17.6
+      },
+      {
+        "start_s": 17.6333,
+        "end_s": 18.5
+      }
+    ],
+    "median_detector_score": 0.3557,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 18.0333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 33
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t132",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 17.3667,
+    "last_seen_s": 22.6667,
+    "observed_frames": 136,
+    "observation_intervals": [
+      {
+        "start_s": 17.3667,
+        "end_s": 20.3
+      },
+      {
+        "start_s": 20.3333,
+        "end_s": 20.6666
+      },
+      {
+        "start_s": 20.7333,
+        "end_s": 20.8666
+      },
+      {
+        "start_s": 21.1333,
+        "end_s": 21.9666
+      },
+      {
+        "start_s": 22.0333,
+        "end_s": 22.1666
+      },
+      {
+        "start_s": 22.4667,
+        "end_s": 22.5
+      },
+      {
+        "start_s": 22.5667,
+        "end_s": 22.7
+      }
+    ],
+    "median_detector_score": 0.6426,
+    "median_red_pixel_fraction": 0.5672,
+    "evidence_time_s": 21.5333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 91,
+      "gloved hand": 44,
+      "pipette controller": 1
+    },
+    "class_consistency_fraction": 0.6691
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t134",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 17.3667,
+    "last_seen_s": 20.4667,
+    "observed_frames": 88,
+    "observation_intervals": [
+      {
+        "start_s": 17.3667,
+        "end_s": 17.5333
+      },
+      {
+        "start_s": 17.6333,
+        "end_s": 17.6666
+      },
+      {
+        "start_s": 17.7667,
+        "end_s": 20.5
+      }
+    ],
+    "median_detector_score": 0.4149,
+    "median_red_pixel_fraction": 0.6398,
+    "evidence_time_s": 20.3,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 88
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t143",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 18.2333,
+    "last_seen_s": 18.3667,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 18.2333,
+        "end_s": 18.4
+      }
+    ],
+    "median_detector_score": 0.8438,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 18.2333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t152",
+    "label": "multiwell plate",
+    "persistent_sample_id": null,
+    "first_seen_s": 18.6667,
+    "last_seen_s": 19.5,
+    "observed_frames": 15,
+    "observation_intervals": [
+      {
+        "start_s": 18.6667,
+        "end_s": 19.0666
+      },
+      {
+        "start_s": 19.4333,
+        "end_s": 19.5333
+      }
+    ],
+    "median_detector_score": 0.272,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 18.6667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "multiwell plate": 15
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t153",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 18.8333,
+    "last_seen_s": 19.4667,
+    "observed_frames": 13,
+    "observation_intervals": [
+      {
+        "start_s": 18.8333,
+        "end_s": 19.1333
+      },
+      {
+        "start_s": 19.3667,
+        "end_s": 19.5
+      }
+    ],
+    "median_detector_score": 0.3276,
+    "median_red_pixel_fraction": 0.0613,
+    "evidence_time_s": 18.8333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 13
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t155",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 18.9,
+    "last_seen_s": 19.1,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 18.9,
+        "end_s": 19.0333
+      },
+      {
+        "start_s": 19.1,
+        "end_s": 19.1333
+      }
+    ],
+    "median_detector_score": 0.4902,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 18.9667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t161",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 19.2,
+    "last_seen_s": 20.3667,
+    "observed_frames": 30,
+    "observation_intervals": [
+      {
+        "start_s": 19.2,
+        "end_s": 19.7333
+      },
+      {
+        "start_s": 19.9333,
+        "end_s": 20.4
+      }
+    ],
+    "median_detector_score": 0.5127,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 20.2333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 30
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t162",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 19.4667,
+    "last_seen_s": 19.9,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 19.4667,
+        "end_s": 19.5333
+      },
+      {
+        "start_s": 19.8,
+        "end_s": 19.9333
+      }
+    ],
+    "median_detector_score": 0.4873,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 19.8333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t164",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 19.8667,
+    "last_seen_s": 21.5667,
+    "observed_frames": 46,
+    "observation_intervals": [
+      {
+        "start_s": 19.8667,
+        "end_s": 20.1333
+      },
+      {
+        "start_s": 20.3333,
+        "end_s": 21.6
+      }
+    ],
+    "median_detector_score": 0.4187,
+    "median_red_pixel_fraction": 0.0248,
+    "evidence_time_s": 20.0,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 46
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t174",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 20.5,
+    "last_seen_s": 21.3667,
+    "observed_frames": 27,
+    "observation_intervals": [
+      {
+        "start_s": 20.5,
+        "end_s": 21.4
+      }
+    ],
+    "median_detector_score": 0.5039,
+    "median_red_pixel_fraction": 0.2412,
+    "evidence_time_s": 20.6,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 27
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t182",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.3667,
+    "last_seen_s": 22.8667,
+    "observed_frames": 46,
+    "observation_intervals": [
+      {
+        "start_s": 21.3667,
+        "end_s": 22.9
+      }
+    ],
+    "median_detector_score": 0.5869,
+    "median_red_pixel_fraction": 0.7374,
+    "evidence_time_s": 22.8333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 45,
+      "pipette controller": 1
+    },
+    "class_consistency_fraction": 0.9783
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t186",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.4667,
+    "last_seen_s": 21.5667,
+    "observed_frames": 4,
+    "observation_intervals": [
+      {
+        "start_s": 21.4667,
+        "end_s": 21.6
+      }
+    ],
+    "median_detector_score": 0.5293,
+    "median_red_pixel_fraction": 0.3574,
+    "evidence_time_s": 21.4667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 4
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t189",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.6,
+    "last_seen_s": 26.7333,
+    "observed_frames": 151,
+    "observation_intervals": [
+      {
+        "start_s": 21.6,
+        "end_s": 24.7
+      },
+      {
+        "start_s": 24.7667,
+        "end_s": 26.5
+      },
+      {
+        "start_s": 26.5667,
+        "end_s": 26.7666
+      }
+    ],
+    "median_detector_score": 0.543,
+    "median_red_pixel_fraction": 0.6284,
+    "evidence_time_s": 24.4333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 151
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t192",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.6667,
+    "last_seen_s": 21.7333,
+    "observed_frames": 3,
+    "observation_intervals": [
+      {
+        "start_s": 21.6667,
+        "end_s": 21.7666
+      }
+    ],
+    "median_detector_score": 0.4648,
+    "median_red_pixel_fraction": 0.378,
+    "evidence_time_s": 21.7333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 3
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t194",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.8,
+    "last_seen_s": 27.1333,
+    "observed_frames": 158,
+    "observation_intervals": [
+      {
+        "start_s": 21.8,
+        "end_s": 27.0
+      },
+      {
+        "start_s": 27.1,
+        "end_s": 27.1666
+      }
+    ],
+    "median_detector_score": 0.5947,
+    "median_red_pixel_fraction": 0.3961,
+    "evidence_time_s": 24.6333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 158
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t195",
+    "label": "multiwell plate",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.8,
+    "last_seen_s": 21.8667,
+    "observed_frames": 3,
+    "observation_intervals": [
+      {
+        "start_s": 21.8,
+        "end_s": 21.9
+      }
+    ],
+    "median_detector_score": 0.2815,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 21.8,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "multiwell plate": 3
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t184",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 21.9667,
+    "last_seen_s": 22.8,
+    "observed_frames": 16,
+    "observation_intervals": [
+      {
+        "start_s": 21.9667,
+        "end_s": 22.0333
+      },
+      {
+        "start_s": 22.1667,
+        "end_s": 22.4666
+      },
+      {
+        "start_s": 22.5,
+        "end_s": 22.5666
+      },
+      {
+        "start_s": 22.7,
+        "end_s": 22.7666
+      },
+      {
+        "start_s": 22.8,
+        "end_s": 22.8333
+      }
+    ],
+    "median_detector_score": 0.503,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 22.1667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 16
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t199",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 22.2,
+    "last_seen_s": 22.6,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 22.2,
+        "end_s": 22.2333
+      },
+      {
+        "start_s": 22.4667,
+        "end_s": 22.6333
+      }
+    ],
+    "median_detector_score": 0.283,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 22.2,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t203",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 22.4333,
+    "last_seen_s": 25.5667,
+    "observed_frames": 89,
+    "observation_intervals": [
+      {
+        "start_s": 22.4333,
+        "end_s": 22.5333
+      },
+      {
+        "start_s": 22.7333,
+        "end_s": 25.6
+      }
+    ],
+    "median_detector_score": 0.3904,
+    "median_red_pixel_fraction": 0.0333,
+    "evidence_time_s": 25.0667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 89
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t208",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 22.7667,
+    "last_seen_s": 27.3667,
+    "observed_frames": 108,
+    "observation_intervals": [
+      {
+        "start_s": 22.7667,
+        "end_s": 25.5
+      },
+      {
+        "start_s": 26.5333,
+        "end_s": 27.4
+      }
+    ],
+    "median_detector_score": 0.646,
+    "median_red_pixel_fraction": 0.5803,
+    "evidence_time_s": 24.3667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 108
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t209",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 22.7667,
+    "last_seen_s": 22.9,
+    "observed_frames": 4,
+    "observation_intervals": [
+      {
+        "start_s": 22.7667,
+        "end_s": 22.8
+      },
+      {
+        "start_s": 22.8333,
+        "end_s": 22.9333
+      }
+    ],
+    "median_detector_score": 0.5913,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 22.8667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 4
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t211",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 24.3667,
+    "last_seen_s": 24.4333,
+    "observed_frames": 3,
+    "observation_intervals": [
+      {
+        "start_s": 24.3667,
+        "end_s": 24.4666
+      }
+    ],
+    "median_detector_score": 0.6655,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 24.4,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 3
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t213",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 24.5,
+    "last_seen_s": 24.6333,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 24.5,
+        "end_s": 24.6666
+      }
+    ],
+    "median_detector_score": 0.6299,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 24.5667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t221",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 25.2667,
+    "last_seen_s": 26.7667,
+    "observed_frames": 37,
+    "observation_intervals": [
+      {
+        "start_s": 25.2667,
+        "end_s": 26.1333
+      },
+      {
+        "start_s": 26.2333,
+        "end_s": 26.3
+      },
+      {
+        "start_s": 26.3667,
+        "end_s": 26.4
+      },
+      {
+        "start_s": 26.5333,
+        "end_s": 26.8
+      }
+    ],
+    "median_detector_score": 0.6704,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 25.7667,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 37
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t222",
+    "label": "multiwell plate",
+    "persistent_sample_id": null,
+    "first_seen_s": 25.2667,
+    "last_seen_s": 25.5,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 25.2667,
+        "end_s": 25.5333
+      }
+    ],
+    "median_detector_score": 0.2625,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 25.4333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "multiwell plate": 8
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t226",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 25.5,
+    "last_seen_s": 27.1667,
+    "observed_frames": 51,
+    "observation_intervals": [
+      {
+        "start_s": 25.5,
+        "end_s": 27.2
+      }
+    ],
+    "median_detector_score": 0.5679,
+    "median_red_pixel_fraction": 0.4095,
+    "evidence_time_s": 25.6333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 51
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t230",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 25.7333,
+    "last_seen_s": 26.3333,
+    "observed_frames": 10,
+    "observation_intervals": [
+      {
+        "start_s": 25.7333,
+        "end_s": 25.8
+      },
+      {
+        "start_s": 25.9,
+        "end_s": 26.0
+      },
+      {
+        "start_s": 26.2,
+        "end_s": 26.3666
+      }
+    ],
+    "median_detector_score": 0.2848,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 26.2333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 10
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t235",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 26.1333,
+    "last_seen_s": 26.5,
+    "observed_frames": 9,
+    "observation_intervals": [
+      {
+        "start_s": 26.1333,
+        "end_s": 26.2333
+      },
+      {
+        "start_s": 26.3,
+        "end_s": 26.3666
+      },
+      {
+        "start_s": 26.4,
+        "end_s": 26.5333
+      }
+    ],
+    "median_detector_score": 0.6353,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 26.4,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 9
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t243",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 26.5667,
+    "last_seen_s": 27.0,
+    "observed_frames": 13,
+    "observation_intervals": [
+      {
+        "start_s": 26.5667,
+        "end_s": 26.7666
+      },
+      {
+        "start_s": 26.8,
+        "end_s": 27.0333
+      }
+    ],
+    "median_detector_score": 0.3091,
+    "median_red_pixel_fraction": 0.1393,
+    "evidence_time_s": 26.6333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 13
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t247",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 27.0333,
+    "last_seen_s": 27.3333,
+    "observed_frames": 9,
+    "observation_intervals": [
+      {
+        "start_s": 27.0333,
+        "end_s": 27.3
+      },
+      {
+        "start_s": 27.3333,
+        "end_s": 27.3666
+      }
+    ],
+    "median_detector_score": 0.4321,
+    "median_red_pixel_fraction": 0.2302,
+    "evidence_time_s": 27.1333,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 9
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t357",
+    "label": "multiwell plate",
+    "persistent_sample_id": null,
+    "first_seen_s": 30.0667,
+    "last_seen_s": 30.7333,
+    "observed_frames": 18,
+    "observation_intervals": [
+      {
+        "start_s": 30.0667,
+        "end_s": 30.2666
+      },
+      {
+        "start_s": 30.3667,
+        "end_s": 30.7666
+      }
+    ],
+    "median_detector_score": 0.3712,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 30.6,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "multiwell plate": 18
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z1:t359",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 30.2333,
+    "last_seen_s": 30.9667,
+    "observed_frames": 23,
+    "observation_intervals": [
+      {
+        "start_s": 30.2333,
+        "end_s": 31.0
+      }
+    ],
+    "median_detector_score": 0.564,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 30.6,
+    "locations": [
+      "cold_storage"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 23
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t1",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 31.1333,
+    "last_seen_s": 31.2667,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 31.1333,
+        "end_s": 31.3
+      }
+    ],
+    "median_detector_score": 0.4844,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 31.1333,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t58",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 37.9667,
+    "last_seen_s": 38.3667,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 37.9667,
+        "end_s": 38.1
+      },
+      {
+        "start_s": 38.3667,
+        "end_s": 38.4
+      }
+    ],
+    "median_detector_score": 0.3999,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 37.9667,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t69",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 38.2333,
+    "last_seen_s": 38.4667,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 38.2333,
+        "end_s": 38.4
+      },
+      {
+        "start_s": 38.4667,
+        "end_s": 38.5
+      }
+    ],
+    "median_detector_score": 0.3684,
+    "median_red_pixel_fraction": 0.0051,
+    "evidence_time_s": 38.4667,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t68",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 38.2333,
+    "last_seen_s": 38.3667,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 38.2333,
+        "end_s": 38.4
+      }
+    ],
+    "median_detector_score": 0.304,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 38.2333,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t82",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 39.2,
+    "last_seen_s": 39.3333,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 39.2,
+        "end_s": 39.3666
+      }
+    ],
+    "median_detector_score": 0.4243,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 39.2333,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t84",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 39.2333,
+    "last_seen_s": 39.6,
+    "observed_frames": 12,
+    "observation_intervals": [
+      {
+        "start_s": 39.2333,
+        "end_s": 39.6333
+      }
+    ],
+    "median_detector_score": 0.4102,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 39.5333,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 12
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t92",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 39.5,
+    "last_seen_s": 39.6333,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 39.5,
+        "end_s": 39.6666
+      }
+    ],
+    "median_detector_score": 0.2351,
+    "median_red_pixel_fraction": 0.0,
+    "evidence_time_s": 39.5,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z2:t107",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 40.5667,
+    "last_seen_s": 40.9333,
+    "observed_frames": 12,
+    "observation_intervals": [
+      {
+        "start_s": 40.5667,
+        "end_s": 40.9666
+      }
+    ],
+    "median_detector_score": 0.5669,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 40.7333,
+    "locations": [
+      "transition"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 12
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t1",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 44.0,
+    "last_seen_s": 44.3,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 44.0,
+        "end_s": 44.1
+      },
+      {
+        "start_s": 44.2333,
+        "end_s": 44.3333
+      }
+    ],
+    "median_detector_score": 0.2814,
+    "median_red_pixel_fraction": 0.01,
+    "evidence_time_s": 44.0,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t4",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 44.3,
+    "last_seen_s": 45.7667,
+    "observed_frames": 41,
+    "observation_intervals": [
+      {
+        "start_s": 44.3,
+        "end_s": 44.3333
+      },
+      {
+        "start_s": 44.4,
+        "end_s": 45.6333
+      },
+      {
+        "start_s": 45.7,
+        "end_s": 45.8
+      }
+    ],
+    "median_detector_score": 0.3831,
+    "median_red_pixel_fraction": 0.0374,
+    "evidence_time_s": 44.5333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 40,
+      "pipette": 1
+    },
+    "class_consistency_fraction": 0.9756
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t6",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 44.4667,
+    "last_seen_s": 45.6667,
+    "observed_frames": 27,
+    "observation_intervals": [
+      {
+        "start_s": 44.4667,
+        "end_s": 44.7666
+      },
+      {
+        "start_s": 44.8,
+        "end_s": 44.9333
+      },
+      {
+        "start_s": 45.0333,
+        "end_s": 45.0666
+      },
+      {
+        "start_s": 45.1,
+        "end_s": 45.1333
+      },
+      {
+        "start_s": 45.1667,
+        "end_s": 45.5333
+      },
+      {
+        "start_s": 45.6667,
+        "end_s": 45.7
+      }
+    ],
+    "median_detector_score": 0.3242,
+    "median_red_pixel_fraction": 0.0396,
+    "evidence_time_s": 45.2,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 27
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t16",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 44.9667,
+    "last_seen_s": 45.4667,
+    "observed_frames": 16,
+    "observation_intervals": [
+      {
+        "start_s": 44.9667,
+        "end_s": 45.5
+      }
+    ],
+    "median_detector_score": 0.6861,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 45.3667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 10,
+      "pipette controller": 6
+    },
+    "class_consistency_fraction": 0.625
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t33",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 45.5,
+    "last_seen_s": 47.3333,
+    "observed_frames": 54,
+    "observation_intervals": [
+      {
+        "start_s": 45.5,
+        "end_s": 45.6666
+      },
+      {
+        "start_s": 45.7,
+        "end_s": 47.1666
+      },
+      {
+        "start_s": 47.2,
+        "end_s": 47.3666
+      }
+    ],
+    "median_detector_score": 0.5964,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 46.4333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 23,
+      "pipette controller": 31
+    },
+    "class_consistency_fraction": 0.5741
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t40",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 45.6333,
+    "last_seen_s": 45.8333,
+    "observed_frames": 7,
+    "observation_intervals": [
+      {
+        "start_s": 45.6333,
+        "end_s": 45.8666
+      }
+    ],
+    "median_detector_score": 0.5156,
+    "median_red_pixel_fraction": 0.4456,
+    "evidence_time_s": 45.7,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 7
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t46",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 45.8333,
+    "last_seen_s": 47.0667,
+    "observed_frames": 33,
+    "observation_intervals": [
+      {
+        "start_s": 45.8333,
+        "end_s": 46.2666
+      },
+      {
+        "start_s": 46.3,
+        "end_s": 46.3666
+      },
+      {
+        "start_s": 46.4,
+        "end_s": 46.5
+      },
+      {
+        "start_s": 46.5333,
+        "end_s": 47.0
+      },
+      {
+        "start_s": 47.0667,
+        "end_s": 47.1
+      }
+    ],
+    "median_detector_score": 0.5928,
+    "median_red_pixel_fraction": 0.2034,
+    "evidence_time_s": 46.8667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 33
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t47",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 45.8333,
+    "last_seen_s": 46.1667,
+    "observed_frames": 11,
+    "observation_intervals": [
+      {
+        "start_s": 45.8333,
+        "end_s": 46.2
+      }
+    ],
+    "median_detector_score": 0.3738,
+    "median_red_pixel_fraction": 0.1362,
+    "evidence_time_s": 46.0333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 11
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t50",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 46.2667,
+    "last_seen_s": 47.4333,
+    "observed_frames": 17,
+    "observation_intervals": [
+      {
+        "start_s": 46.2667,
+        "end_s": 46.3
+      },
+      {
+        "start_s": 46.3667,
+        "end_s": 46.4
+      },
+      {
+        "start_s": 46.5,
+        "end_s": 46.5333
+      },
+      {
+        "start_s": 46.9667,
+        "end_s": 47.0666
+      },
+      {
+        "start_s": 47.1,
+        "end_s": 47.4666
+      }
+    ],
+    "median_detector_score": 0.502,
+    "median_red_pixel_fraction": 0.4523,
+    "evidence_time_s": 46.5,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 17
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t52",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 46.4333,
+    "last_seen_s": 47.0,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 46.4333,
+        "end_s": 46.5333
+      },
+      {
+        "start_s": 46.6333,
+        "end_s": 46.6666
+      },
+      {
+        "start_s": 46.8,
+        "end_s": 46.8333
+      },
+      {
+        "start_s": 46.9333,
+        "end_s": 47.0333
+      }
+    ],
+    "median_detector_score": 0.3774,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 46.4667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 8
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t60",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 46.6333,
+    "last_seen_s": 47.0333,
+    "observed_frames": 13,
+    "observation_intervals": [
+      {
+        "start_s": 46.6333,
+        "end_s": 47.0666
+      }
+    ],
+    "median_detector_score": 0.269,
+    "median_red_pixel_fraction": 0.0447,
+    "evidence_time_s": 46.8333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 13
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t62",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 46.7,
+    "last_seen_s": 46.9667,
+    "observed_frames": 9,
+    "observation_intervals": [
+      {
+        "start_s": 46.7,
+        "end_s": 47.0
+      }
+    ],
+    "median_detector_score": 0.2974,
+    "median_red_pixel_fraction": 0.024,
+    "evidence_time_s": 46.8333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 9
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t64",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 46.7667,
+    "last_seen_s": 47.1,
+    "observed_frames": 10,
+    "observation_intervals": [
+      {
+        "start_s": 46.7667,
+        "end_s": 47.0
+      },
+      {
+        "start_s": 47.0333,
+        "end_s": 47.1333
+      }
+    ],
+    "median_detector_score": 0.3328,
+    "median_red_pixel_fraction": 0.0193,
+    "evidence_time_s": 46.8333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 10
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t66",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 46.8333,
+    "last_seen_s": 47.5,
+    "observed_frames": 10,
+    "observation_intervals": [
+      {
+        "start_s": 46.8333,
+        "end_s": 47.1
+      },
+      {
+        "start_s": 47.4667,
+        "end_s": 47.5333
+      }
+    ],
+    "median_detector_score": 0.3179,
+    "median_red_pixel_fraction": 0.0425,
+    "evidence_time_s": 46.8333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 9,
+      "pipette": 1
+    },
+    "class_consistency_fraction": 0.9
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t71",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 47.0667,
+    "last_seen_s": 49.5333,
+    "observed_frames": 75,
+    "observation_intervals": [
+      {
+        "start_s": 47.0667,
+        "end_s": 49.5666
+      }
+    ],
+    "median_detector_score": 0.8091,
+    "median_red_pixel_fraction": 0.4887,
+    "evidence_time_s": 48.5333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 75
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t73",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 47.0667,
+    "last_seen_s": 47.5,
+    "observed_frames": 14,
+    "observation_intervals": [
+      {
+        "start_s": 47.0667,
+        "end_s": 47.5333
+      }
+    ],
+    "median_detector_score": 0.7129,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 47.2333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 8,
+      "pipette controller": 6
+    },
+    "class_consistency_fraction": 0.5714
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t76",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 47.2,
+    "last_seen_s": 49.8667,
+    "observed_frames": 77,
+    "observation_intervals": [
+      {
+        "start_s": 47.2,
+        "end_s": 49.6666
+      },
+      {
+        "start_s": 49.8,
+        "end_s": 49.9
+      }
+    ],
+    "median_detector_score": 0.7251,
+    "median_red_pixel_fraction": 0.5621,
+    "evidence_time_s": 48.5333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 72,
+      "pipette controller": 3,
+      "spray bottle": 2
+    },
+    "class_consistency_fraction": 0.9351
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t127",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 48.7333,
+    "last_seen_s": 49.0,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 48.7333,
+        "end_s": 48.8
+      },
+      {
+        "start_s": 48.9,
+        "end_s": 49.0333
+      }
+    ],
+    "median_detector_score": 0.3093,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 48.9,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 6
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t145",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 49.5667,
+    "last_seen_s": 49.6333,
+    "observed_frames": 3,
+    "observation_intervals": [
+      {
+        "start_s": 49.5667,
+        "end_s": 49.6666
+      }
+    ],
+    "median_detector_score": 0.7251,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 49.6,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 3
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t150",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 49.8,
+    "last_seen_s": 50.2667,
+    "observed_frames": 14,
+    "observation_intervals": [
+      {
+        "start_s": 49.8,
+        "end_s": 50.2333
+      },
+      {
+        "start_s": 50.2667,
+        "end_s": 50.3
+      }
+    ],
+    "median_detector_score": 0.4377,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 50.1333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 14
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t151",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 49.9333,
+    "last_seen_s": 50.2,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 49.9333,
+        "end_s": 50.1333
+      },
+      {
+        "start_s": 50.1667,
+        "end_s": 50.2333
+      }
+    ],
+    "median_detector_score": 0.4263,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 50.0,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 8
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t163",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 50.3667,
+    "last_seen_s": 50.8,
+    "observed_frames": 13,
+    "observation_intervals": [
+      {
+        "start_s": 50.3667,
+        "end_s": 50.7666
+      },
+      {
+        "start_s": 50.8,
+        "end_s": 50.8333
+      }
+    ],
+    "median_detector_score": 0.8345,
+    "median_red_pixel_fraction": 0.5217,
+    "evidence_time_s": 50.5667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 13
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t172",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 50.8333,
+    "last_seen_s": 51.0667,
+    "observed_frames": 7,
+    "observation_intervals": [
+      {
+        "start_s": 50.8333,
+        "end_s": 51.0
+      },
+      {
+        "start_s": 51.0333,
+        "end_s": 51.1
+      }
+    ],
+    "median_detector_score": 0.4321,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 50.8333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 7
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t175",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 50.9667,
+    "last_seen_s": 51.2,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 50.9667,
+        "end_s": 51.2333
+      }
+    ],
+    "median_detector_score": 0.3822,
+    "median_red_pixel_fraction": 0.279,
+    "evidence_time_s": 50.9667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 7,
+      "bottle": 1
+    },
+    "class_consistency_fraction": 0.875
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t192",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 51.3333,
+    "last_seen_s": 51.4,
+    "observed_frames": 3,
+    "observation_intervals": [
+      {
+        "start_s": 51.3333,
+        "end_s": 51.4333
+      }
+    ],
+    "median_detector_score": 0.2673,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 51.3333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 3
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t200",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 51.5667,
+    "last_seen_s": 52.3333,
+    "observed_frames": 18,
+    "observation_intervals": [
+      {
+        "start_s": 51.5667,
+        "end_s": 51.7333
+      },
+      {
+        "start_s": 51.7667,
+        "end_s": 51.9
+      },
+      {
+        "start_s": 51.9333,
+        "end_s": 52.1333
+      },
+      {
+        "start_s": 52.2667,
+        "end_s": 52.3666
+      }
+    ],
+    "median_detector_score": 0.3715,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 51.9333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 18
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t201",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 52.0667,
+    "last_seen_s": 52.6333,
+    "observed_frames": 18,
+    "observation_intervals": [
+      {
+        "start_s": 52.0667,
+        "end_s": 52.6666
+      }
+    ],
+    "median_detector_score": 0.5615,
+    "median_red_pixel_fraction": 0.5198,
+    "evidence_time_s": 52.2333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 18
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t202",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 52.2,
+    "last_seen_s": 52.3667,
+    "observed_frames": 6,
+    "observation_intervals": [
+      {
+        "start_s": 52.2,
+        "end_s": 52.4
+      }
+    ],
+    "median_detector_score": 0.326,
+    "median_red_pixel_fraction": 0.0025,
+    "evidence_time_s": 52.3333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 5,
+      "bottle": 1
+    },
+    "class_consistency_fraction": 0.8333
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t208",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 52.5,
+    "last_seen_s": 53.0333,
+    "observed_frames": 15,
+    "observation_intervals": [
+      {
+        "start_s": 52.5,
+        "end_s": 52.6333
+      },
+      {
+        "start_s": 52.6667,
+        "end_s": 52.8333
+      },
+      {
+        "start_s": 52.8667,
+        "end_s": 53.0666
+      }
+    ],
+    "median_detector_score": 0.6992,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 52.6,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 15
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t213",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 52.7333,
+    "last_seen_s": 53.9333,
+    "observed_frames": 37,
+    "observation_intervals": [
+      {
+        "start_s": 52.7333,
+        "end_s": 53.9666
+      }
+    ],
+    "median_detector_score": 0.3225,
+    "median_red_pixel_fraction": 0.8139,
+    "evidence_time_s": 53.2667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 37
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t217",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 53.2333,
+    "last_seen_s": 53.5333,
+    "observed_frames": 9,
+    "observation_intervals": [
+      {
+        "start_s": 53.2333,
+        "end_s": 53.5
+      },
+      {
+        "start_s": 53.5333,
+        "end_s": 53.5666
+      }
+    ],
+    "median_detector_score": 0.2815,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 53.2333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 9
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t239",
+    "label": "pipette",
+    "persistent_sample_id": null,
+    "first_seen_s": 54.1667,
+    "last_seen_s": 55.0333,
+    "observed_frames": 10,
+    "observation_intervals": [
+      {
+        "start_s": 54.1667,
+        "end_s": 54.2666
+      },
+      {
+        "start_s": 54.3333,
+        "end_s": 54.4
+      },
+      {
+        "start_s": 54.8333,
+        "end_s": 54.9666
+      },
+      {
+        "start_s": 55.0333,
+        "end_s": 55.0666
+      }
+    ],
+    "median_detector_score": 0.3216,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 54.8333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 10
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t241",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 54.2333,
+    "last_seen_s": 54.6333,
+    "observed_frames": 4,
+    "observation_intervals": [
+      {
+        "start_s": 54.2333,
+        "end_s": 54.3333
+      },
+      {
+        "start_s": 54.6333,
+        "end_s": 54.6666
+      }
+    ],
+    "median_detector_score": 0.2831,
+    "median_red_pixel_fraction": 0.7911,
+    "evidence_time_s": 54.2333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 4
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t248",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 55.2333,
+    "last_seen_s": 56.5,
+    "observed_frames": 35,
+    "observation_intervals": [
+      {
+        "start_s": 55.2333,
+        "end_s": 56.3333
+      },
+      {
+        "start_s": 56.4667,
+        "end_s": 56.5333
+      }
+    ],
+    "median_detector_score": 0.4668,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 55.9,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette controller": 35
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t250",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 55.4667,
+    "last_seen_s": 55.7667,
+    "observed_frames": 10,
+    "observation_intervals": [
+      {
+        "start_s": 55.4667,
+        "end_s": 55.8
+      }
+    ],
+    "median_detector_score": 0.5908,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 55.5333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 10
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t256",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 55.8667,
+    "last_seen_s": 56.4333,
+    "observed_frames": 18,
+    "observation_intervals": [
+      {
+        "start_s": 55.8667,
+        "end_s": 56.4666
+      }
+    ],
+    "median_detector_score": 0.3469,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 56.0667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 18
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t280",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.1,
+    "last_seen_s": 57.3,
+    "observed_frames": 7,
+    "observation_intervals": [
+      {
+        "start_s": 57.1,
+        "end_s": 57.3333
+      }
+    ],
+    "median_detector_score": 0.2422,
+    "median_red_pixel_fraction": 0.0159,
+    "evidence_time_s": 57.1,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 7
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t282",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.1333,
+    "last_seen_s": 57.4,
+    "observed_frames": 8,
+    "observation_intervals": [
+      {
+        "start_s": 57.1333,
+        "end_s": 57.1666
+      },
+      {
+        "start_s": 57.2,
+        "end_s": 57.4333
+      }
+    ],
+    "median_detector_score": 0.2424,
+    "median_red_pixel_fraction": 0.0185,
+    "evidence_time_s": 57.1333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 8
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t283",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.1333,
+    "last_seen_s": 57.8667,
+    "observed_frames": 14,
+    "observation_intervals": [
+      {
+        "start_s": 57.1333,
+        "end_s": 57.4
+      },
+      {
+        "start_s": 57.7,
+        "end_s": 57.9
+      }
+    ],
+    "median_detector_score": 0.2969,
+    "median_red_pixel_fraction": 0.0395,
+    "evidence_time_s": 57.1333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 14
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t292",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.3,
+    "last_seen_s": 57.5333,
+    "observed_frames": 5,
+    "observation_intervals": [
+      {
+        "start_s": 57.3,
+        "end_s": 57.3666
+      },
+      {
+        "start_s": 57.4333,
+        "end_s": 57.4666
+      },
+      {
+        "start_s": 57.5,
+        "end_s": 57.5666
+      }
+    ],
+    "median_detector_score": 0.6929,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 57.3,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 5
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t291",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.3,
+    "last_seen_s": 58.3667,
+    "observed_frames": 32,
+    "observation_intervals": [
+      {
+        "start_s": 57.3,
+        "end_s": 57.6333
+      },
+      {
+        "start_s": 57.6667,
+        "end_s": 58.4
+      }
+    ],
+    "median_detector_score": 0.5756,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 57.4667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 32
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t305",
+    "label": "gloved hand",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.6,
+    "last_seen_s": 58.3333,
+    "observed_frames": 23,
+    "observation_intervals": [
+      {
+        "start_s": 57.6,
+        "end_s": 58.3666
+      }
+    ],
+    "median_detector_score": 0.4883,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 58.3333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "gloved hand": 23
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t308",
+    "label": "pipette controller",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.6667,
+    "last_seen_s": 59.1333,
+    "observed_frames": 29,
+    "observation_intervals": [
+      {
+        "start_s": 57.6667,
+        "end_s": 57.8
+      },
+      {
+        "start_s": 57.8667,
+        "end_s": 58.2
+      },
+      {
+        "start_s": 58.3333,
+        "end_s": 58.5333
+      },
+      {
+        "start_s": 58.8667,
+        "end_s": 59.1666
+      }
+    ],
+    "median_detector_score": 0.2783,
+    "median_red_pixel_fraction": null,
+    "evidence_time_s": 57.6667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding; class_changed_requires_review",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "pipette": 6,
+      "pipette controller": 23
+    },
+    "class_consistency_fraction": 0.7931
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t310",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.7,
+    "last_seen_s": 58.9333,
+    "observed_frames": 30,
+    "observation_intervals": [
+      {
+        "start_s": 57.7,
+        "end_s": 58.6333
+      },
+      {
+        "start_s": 58.9,
+        "end_s": 58.9666
+      }
+    ],
+    "median_detector_score": 0.3107,
+    "median_red_pixel_fraction": 0.0101,
+    "evidence_time_s": 58.1,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 30
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t319",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.8333,
+    "last_seen_s": 59.1333,
+    "observed_frames": 40,
+    "observation_intervals": [
+      {
+        "start_s": 57.8333,
+        "end_s": 59.1666
+      }
+    ],
+    "median_detector_score": 0.3802,
+    "median_red_pixel_fraction": 0.0093,
+    "evidence_time_s": 58.9667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 40
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t323",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 57.9667,
+    "last_seen_s": 59.1333,
+    "observed_frames": 36,
+    "observation_intervals": [
+      {
+        "start_s": 57.9667,
+        "end_s": 59.1666
+      }
+    ],
+    "median_detector_score": 0.353,
+    "median_red_pixel_fraction": 0.0255,
+    "evidence_time_s": 58.5667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 36
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t334",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 58.3,
+    "last_seen_s": 59.1333,
+    "observed_frames": 23,
+    "observation_intervals": [
+      {
+        "start_s": 58.3,
+        "end_s": 58.4333
+      },
+      {
+        "start_s": 58.5333,
+        "end_s": 59.1666
+      }
+    ],
+    "median_detector_score": 0.3057,
+    "median_red_pixel_fraction": 0.4049,
+    "evidence_time_s": 58.6667,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 23
+    },
+    "class_consistency_fraction": 1.0
+  },
+  {
+    "track_id": "video-60_singular_display:z3:t344",
+    "label": "bottle",
+    "persistent_sample_id": null,
+    "first_seen_s": 58.9,
+    "last_seen_s": 59.1,
+    "observed_frames": 7,
+    "observation_intervals": [
+      {
+        "start_s": 58.9,
+        "end_s": 59.1333
+      }
+    ],
+    "median_detector_score": 0.2407,
+    "median_red_pixel_fraction": 0.0046,
+    "evidence_time_s": 58.9333,
+    "locations": [
+      "microscopy_station"
+    ],
+    "identity_status": "temporary_visual_track; no_cross_recording_or_zone_identity_binding",
+    "history_properties": {
+      "reagent_identity": null,
+      "freeze_thaw_count": null,
+      "sample_age": null,
+      "passage_number": null
+    },
+    "review_status": "unreviewed",
+    "class_predictions": {
+      "bottle": 7
+    },
+    "class_consistency_fraction": 1.0
+  }
+]

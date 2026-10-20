@@ -1,0 +1,65 @@
+{
+  "recording_id": "video-94_singular_display",
+  "model": "whisper-base.en",
+  "device": "cpu",
+  "segments": [
+    {
+      "start_s": 0.0,
+      "end_s": 19.28,
+      "text": "inexplicably, this is the ST",
+      "avg_logprob": -4.0299,
+      "no_speech_prob": 0.5248,
+      "compression_ratio": 0.914,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 19.28,
+      "end_s": 20.46,
+      "text": "Your",
+      "avg_logprob": -4.0299,
+      "no_speech_prob": 0.5248,
+      "compression_ratio": 0.914,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 20.46,
+      "end_s": 22.52,
+      "text": "Finger",
+      "avg_logprob": -4.0299,
+      "no_speech_prob": 0.5248,
+      "compression_ratio": 0.914,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 22.52,
+      "end_s": 26.7,
+      "text": "It will have",
+      "avg_logprob": -4.0299,
+      "no_speech_prob": 0.5248,
+      "compression_ratio": 0.914,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred.",
+      "audit_reason": "ASR_time_range_extends_past_video; not_valid_visual_evidence"
+    },
+    {
+      "start_s": 26.7,
+      "end_s": 28.7,
+      "text": "Especially",
+      "avg_logprob": -4.0299,
+      "no_speech_prob": 0.5248,
+      "compression_ratio": 0.914,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred.",
+      "audit_reason": "ASR_time_range_extends_past_video; not_valid_visual_evidence"
+    }
+  ],
+  "review_status": "unreviewed"
+}

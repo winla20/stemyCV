@@ -1,0 +1,69 @@
+{
+  "schema_version": "stemy.workflow.run.v1",
+  "recording_id": "video-94_singular_display",
+  "created_at_utc": "2026-10-10T04:33:26.419218+00:00",
+  "model": "yoloe-26s-seg.pt",
+  "prompt_mode": "text",
+  "classes": [
+    "gloved hand",
+    "bottle",
+    "multiwell plate",
+    "pipette",
+    "pipette controller",
+    "spray bottle"
+  ],
+  "input_size": 640,
+  "confidence_threshold": 0.2,
+  "compute_precision": "fp16",
+  "processed_frames": 668,
+  "processed_fps": 30.0,
+  "duration_s": 22.266666666666666,
+  "width": 724,
+  "height": 960,
+  "processing_loop_s": 82.38,
+  "processing_throughput_fps": 8.11,
+  "detections_by_class": {
+    "bottle": 242,
+    "pipette controller": 214,
+    "multiwell plate": 178,
+    "gloved hand": 676,
+    "spray bottle": 1
+  },
+  "frames_with_class_prediction": {
+    "bottle": 234,
+    "pipette controller": 162,
+    "multiwell plate": 173,
+    "gloved hand": 404,
+    "spray bottle": 1
+  },
+  "source_manifest": {
+    "recording_id": "video-94_singular_display",
+    "original_path": "data/demo/video-94_singular_display.mov",
+    "original_sha256": "fd0c6b51521e34c40a9a37e0709de8d3f67566d4e17b036b08f3fb826f7903fd",
+    "review_video": "demo_results/video-94_singular_display/source_browser.mp4",
+    "review_video_sha256": "8d48517ae3234d3194004c7b1b03225ee2f7d715b9782cc64654c3481b2a691c",
+    "review_fps": 30,
+    "recording_time_from_metadata": "2026-10-09T21:37:51Z",
+    "timestamp_basis": "Seconds in timestamp-normalized 30 fps review copy; audio retained. Source recordings are unchanged.",
+    "path_basis": "repository_root"
+  },
+  "protocol_status": "inferred_from_video_not_an_authoritative_SOP",
+  "review_status": "unreviewed",
+  "limitations": [
+    "Detection presence is not verified recall or accuracy.",
+    "Frame scores are not calibrated event probabilities.",
+    "Track IDs are local to a recording and location epoch, not persistent sample identities.",
+    "Image-space color, area and motion do not measure liquid volume, cellular growth or sterility."
+  ],
+  "processing_breakdown_s": {
+    "decode_s": 2.086,
+    "camera_motion_s": 5.925,
+    "detector_tracking_s": 58.778,
+    "mask_properties_export_s": 15.545
+  },
+  "detector_device": null,
+  "peak_cuda_allocated_mb": 105.3,
+  "host_model_device": "cpu",
+  "device_reporting_note": "Original single-frame run recorded the host model device, not the separate inference backend. Requested GPU device was 0.",
+  "cuda_peak_scope": "Process lifetime, including any earlier recordings in that process; excludes other GPU/driver usage."
+}

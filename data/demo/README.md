@@ -2,6 +2,8 @@
 
 Four original SteMy workflow recordings are included directly in Git. `python run_workflow.py` uses this directory by default. Total size is about 77 MB; no Git LFS setup is required.
 
+To review their already processed results without a GPU or ML packages, run `python3 replay_demo.py` from the repository root. See [demo_results](../../demo_results/README.md).
+
 | File | Inferred activity |
 | --- | --- |
 | `video-60_singular_display.mov` | Retrieve bottles and place them at the bench |

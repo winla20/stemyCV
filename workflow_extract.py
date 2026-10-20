@@ -7,6 +7,7 @@ import hashlib
 import math
 from pathlib import Path
 import time
+from workflow_runtime import select_device, precision, default_batch_size, reset_peak_memory, peak_memory_mb
 
 import cv2
 import numpy as np
@@ -57,7 +58,7 @@ def batched_predictions(cap, model, recording, fps, start_frame, args, timing):
             if previous_zone is not None and previous_zone!=batch_zone:
                 for tracker in getattr(model.predictor,'trackers',[]):tracker.reset()
             tick=time.perf_counter()
-            results=model.track([image for _,image in batch],persist=True,tracker='bytetrack.yaml',imgsz=args.image_size,conf=args.confidence,device='0',quantize=16,retina_masks=True,batch=args.batch_size,verbose=False)
+            results=model.track([image for _,image in batch],persist=True,tracker='bytetrack.yaml',imgsz=args.image_size,conf=args.confidence,device=args.device,quantize=precision(args.device),retina_masks=True,batch=args.batch_size,verbose=False)
             timing['detector_tracking_s']+=time.perf_counter()-tick
             assert len(results)==len(batch)
             for (frame_index,image),result in zip(batch,results):yield frame_index,image,result
@@ -77,13 +78,18 @@ def main():
     p.add_argument('--prompt-mode',choices=['text','visual'],default='text')
     p.add_argument('--overwrite',action='store_true')
     p.add_argument('--resume',action='store_true')
-    p.add_argument('--batch-size',type=int,default=8)
+    p.add_argument('--device',default='auto')
+    p.add_argument('--batch-size',type=int)
     args=p.parse_args()
+    args.device=select_device(args.device)
+    if args.batch_size is None:args.batch_size=default_batch_size(args.device)
+    if args.batch_size < 1:p.error('--batch-size must be positive')
+    print(f'Detector: {args.device}, FP{precision(args.device)}, batch {args.batch_size}',flush=True)
     # Large default CPU thread pools slow down small per-frame operations on this laptop.
     cv2.setNumThreads(2)
     torch.set_num_threads(4)
     config=json.loads(args.config.read_text())
-    model=load_detector(args.prompt_mode,args.image_size)
+    model=None
     manifests=sorted(args.root.glob('*_singular_display/source_manifest.json'))
     if args.recordings:
         manifests.sort(key=lambda m:args.recordings.index(m.parent.name) if m.parent.name in args.recordings else len(args.recordings))
@@ -94,8 +100,9 @@ def main():
         folder=manifest.parent
         if (folder/'extraction_summary.json').exists() and not args.overwrite:
             print(f'Skipping completed {name}',flush=True);continue
+        if model is None:model=load_detector(args.prompt_mode,args.image_size,args.device)
         recording=config['recordings'][name]
-        parameters={'model':'yoloe-26s-seg.pt','image_size':args.image_size,'confidence':args.confidence,'prompt_mode':args.prompt_mode,'phase_map':recording['phases']}
+        parameters={'model':'yoloe-26s-seg.pt','image_size':args.image_size,'confidence':args.confidence,'prompt_mode':args.prompt_mode,'phase_map':recording['phases'],'device':args.device,'precision':precision(args.device),'batch_size':args.batch_size}
         with Path(parameters['model']).open('rb') as weight_file:
             parameters['model_sha256']=hashlib.file_digest(weight_file,'sha256').hexdigest()
         parameter_path=folder/'run_parameters.json'
@@ -129,6 +136,7 @@ def main():
             cap.set(cv2.CAP_PROP_POS_FRAMES,frame_index)
             print(f'Resuming {name} at {frame_index/fps:.1f}s; new temporary identity epoch',flush=True)
         segment_start_frame=frame_index
+        reset_peak_memory(args.device)
         started=time.perf_counter(); timing=Counter()
         with (folder/'frames.jsonl').open('a' if existing else 'w',encoding='utf-8') as stream:
             for frame_index,frame,result in batched_predictions(cap,model,recording,fps,frame_index,args,timing):
@@ -182,7 +190,9 @@ def main():
         summary['processing_breakdown_s']={k:round(v,3) for k,v in timing.items()}
         summary['host_model_device']=str(next(model.model.parameters()).device)
         summary['detector_device']=str(model.predictor.device)
-        summary['peak_cuda_allocated_mb']=round(torch.cuda.max_memory_allocated()/1024**2,1)
+        summary['compute_precision']=f'fp{precision(args.device)}'
+        summary['peak_cuda_allocated_mb']=peak_memory_mb(args.device)
+        summary['cuda_peak_scope']='Current processing segment; null on non-CUDA devices.'
         (folder/'extraction_summary.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
         print(json.dumps({k:summary[k] for k in ['recording_id','processed_frames','processing_loop_s','processing_throughput_fps']}),flush=True)
 

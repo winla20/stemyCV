@@ -1,0 +1,119 @@
+{
+  "recording_id": "video-102_singular_display",
+  "model": "whisper-base.en",
+  "device": "cpu",
+  "segments": [
+    {
+      "start_s": 0.0,
+      "end_s": 22.0,
+      "text": "I'm going to remove the audio so you can say whatever.",
+      "avg_logprob": -0.5938,
+      "no_speech_prob": 0.1281,
+      "compression_ratio": 0.885,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 22.0,
+      "end_s": 35.12,
+      "text": "Cute.",
+      "avg_logprob": -3.0758,
+      "no_speech_prob": 0.5865,
+      "compression_ratio": 0.385,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 142.0,
+      "end_s": 148.42,
+      "text": "these guys are handling the chir very well.",
+      "avg_logprob": -0.4163,
+      "no_speech_prob": 0.29,
+      "compression_ratio": 1.556,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 148.42,
+      "end_s": 149.68,
+      "text": "alive and well?",
+      "avg_logprob": -0.4163,
+      "no_speech_prob": 0.29,
+      "compression_ratio": 1.556,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 149.68,
+      "end_s": 151.06,
+      "text": "yeah that's good.",
+      "avg_logprob": -0.4163,
+      "no_speech_prob": 0.29,
+      "compression_ratio": 1.556,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 151.06,
+      "end_s": 155.7,
+      "text": "you know I think high passage I genuinely think chir toxicity can change.",
+      "avg_logprob": -0.4163,
+      "no_speech_prob": 0.29,
+      "compression_ratio": 1.556,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 155.7,
+      "end_s": 163.66,
+      "text": "I saw a paper that came out about how like if cells are in like the G1 phase of the cell cycle",
+      "avg_logprob": -0.4163,
+      "no_speech_prob": 0.29,
+      "compression_ratio": 1.556,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 163.66,
+      "end_s": 169.9,
+      "text": "they're much more susceptible to the kind of the toxicity.",
+      "avg_logprob": -0.4163,
+      "no_speech_prob": 0.29,
+      "compression_ratio": 1.556,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 172.0,
+      "end_s": 178.24,
+      "text": "Oh, it's your lower path? Wait, no, this isn't your lower path.",
+      "avg_logprob": -0.5358,
+      "no_speech_prob": 0.2072,
+      "compression_ratio": 1.431,
+      "evidence_status": "asr_candidate",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    },
+    {
+      "start_s": 178.24,
+      "end_s": 181.08,
+      "text": "Yeah, yeah, no, this is the lower path.",
+      "avg_logprob": -0.5358,
+      "no_speech_prob": 0.2072,
+      "compression_ratio": 1.431,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred.",
+      "audit_reason": "ASR_time_range_extends_past_video; not_valid_visual_evidence"
+    }
+  ],
+  "review_status": "unreviewed"
+}

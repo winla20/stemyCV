@@ -1,0 +1,50 @@
+[
+  {
+    "label": "gloved hand",
+    "start_s": 29,
+    "end_s": 57,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "spray",
+    "evaluated_frames": 840,
+    "frames_with_class_prediction": 654,
+    "prediction_presence_fraction": 0.7786,
+    "longest_no_prediction_gap_s": 1.933,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "label": "gloved hand",
+    "start_s": 57,
+    "end_s": 71,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "wipe",
+    "evaluated_frames": 420,
+    "frames_with_class_prediction": 68,
+    "prediction_presence_fraction": 0.1619,
+    "longest_no_prediction_gap_s": 2.333,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 33,
+    "end_s": 53,
+    "label": "spray bottle",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 600,
+    "frames_with_class_prediction": 6,
+    "prediction_presence_fraction": 0.01,
+    "longest_no_prediction_gap_s": 17.8,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 112,
+    "end_s": 131,
+    "label": "multiwell plate",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 570,
+    "frames_with_class_prediction": 152,
+    "prediction_presence_fraction": 0.2667,
+    "longest_no_prediction_gap_s": 5.3,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  }
+]

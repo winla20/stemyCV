@@ -1,0 +1,19 @@
+{
+  "recording_id": "video-60_singular_display",
+  "model": "whisper-base.en",
+  "device": "cpu",
+  "segments": [
+    {
+      "start_s": 30.0,
+      "end_s": 42.36,
+      "text": "Hello.",
+      "avg_logprob": -1.4657,
+      "no_speech_prob": 0.1178,
+      "compression_ratio": 0.429,
+      "evidence_status": "low_confidence_asr",
+      "review_status": "unreviewed",
+      "interpretation": "Spoken words do not establish that an action occurred."
+    }
+  ],
+  "review_status": "unreviewed"
+}

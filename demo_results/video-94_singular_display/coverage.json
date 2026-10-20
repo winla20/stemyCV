@@ -1,0 +1,38 @@
+[
+  {
+    "label": "multiwell plate",
+    "start_s": 0,
+    "end_s": 6,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "plate_pickup",
+    "evaluated_frames": 180,
+    "frames_with_class_prediction": 146,
+    "prediction_presence_fraction": 0.8111,
+    "longest_no_prediction_gap_s": 0.633,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "label": "multiwell plate",
+    "start_s": 6,
+    "end_s": 9,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "carry_plate",
+    "evaluated_frames": 90,
+    "frames_with_class_prediction": 12,
+    "prediction_presence_fraction": 0.1333,
+    "longest_no_prediction_gap_s": 0.8,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 11.5,
+    "end_s": 14.5,
+    "label": "multiwell plate",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 90,
+    "frames_with_class_prediction": 11,
+    "prediction_presence_fraction": 0.1222,
+    "longest_no_prediction_gap_s": 0.933,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  }
+]

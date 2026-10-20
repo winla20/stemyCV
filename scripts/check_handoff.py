@@ -47,6 +47,22 @@ def main():
     Draft202012Validator.check_schema(schema)
     validator = Draft202012Validator(schema)
     validate_event(json.loads((ROOT / 'examples/event.json').read_text(encoding='utf-8')), validator)
+    bundle=ROOT/'demo_results'
+    saved=json.loads((bundle/'manifest.json').read_text(encoding='utf-8'))['files']
+    bundled_events=0
+    for entry in saved:
+        path=bundle/entry['path']
+        with path.open('rb') as stream:
+            if path.stat().st_size!=entry['size_bytes'] or hashlib.file_digest(stream,'sha256').hexdigest()!=entry['sha256']:
+                raise ValueError(f'Processed artifact mismatch: {path.name}')
+        if path.name=='events.jsonl':
+            for line in path.read_text(encoding='utf-8').splitlines():
+                validate_event(json.loads(line),validator)
+                bundled_events+=1
+        if path.suffix in ('.json','.jsonl'):
+            text=path.read_text(encoding='utf-8')
+            if 'C:\\\\Users\\\\' in text or 'Downloads' in text:
+                raise ValueError(f'Machine-specific path in processed bundle: {path}')
     count = 0
     if args.events:
         seen = set()
@@ -63,7 +79,7 @@ def main():
     html = (ROOT / 'workflow_viewer.html').read_text(encoding='utf-8')
     script = html.rsplit('<script>', 1)[1].split('</script>', 1)[0]
     subprocess.run(['node', '--check'], input=script, text=True, check=True)
-    print(f'Passed: {len(sources)} Python files, JSON config, {len(inputs)} bundled video hashes, event schema/example, viewer JS; {count} supplied events')
+    print(f'Passed: {len(sources)} Python files, JSON config, {len(inputs)} input video hashes, {len(saved)} processed artifacts, {bundled_events} bundled events, viewer JS; {count} supplied events')
 
 
 if __name__ == '__main__':

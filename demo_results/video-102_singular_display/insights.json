@@ -1,0 +1,111 @@
+{
+  "recording_id": "video-102_singular_display",
+  "event_counts": {
+    "visibility_prompt_candidate": 7,
+    "visual_interpretation_candidate": 4,
+    "object_relation_candidate": 1,
+    "reported_response_candidate": 4
+  },
+  "temporary_tracks": 368,
+  "microvariation_candidates": [
+    {
+      "metric": "pipette_plate_proximity_intervals",
+      "value": 0,
+      "unit": "candidate_intervals",
+      "limitations": "Depends on shaft/tip detection and temporary track identity; not a count of verified dispense/aspirate actions."
+    },
+    {
+      "metric": "visibility_gap_intervals",
+      "value": 7,
+      "unit": "intervals",
+      "limitations": "Replay prompts from inferred requirements; actual detector misses versus camera occlusion are unresolved."
+    }
+  ],
+  "experiment_response": {
+    "cell_morphology": "not_observed_at_cell_resolution",
+    "growth_rate": null,
+    "spontaneous_differentiation": null,
+    "final_outcome": null,
+    "required_inputs": [
+      "Time-stamped microscopy images from the same sample and comparable fields",
+      "Pixel-size calibration and acquisition metadata",
+      "Sample/plate/well IDs",
+      "Recorded final outcome and any assay measurements"
+    ],
+    "response_related_speech_candidates": [
+      {
+        "record_type": "reported_response_candidate",
+        "action": "response_related_speech",
+        "start_s": 148.42,
+        "end_s": 149.68,
+        "description": "alive and well?",
+        "matched_terms": [
+          "alive"
+        ],
+        "location": "microscopy_station",
+        "track_ids": [],
+        "event_confidence": null,
+        "basis": "ASR_keyword_matched_speech; may_be_discussion_rather_than_a_sample_observation",
+        "review_status": "unreviewed",
+        "interpretation": "Reported words only; no cell-health, differentiation or chemical-identity conclusion."
+      },
+      {
+        "record_type": "reported_response_candidate",
+        "action": "response_related_speech",
+        "start_s": 151.06,
+        "end_s": 155.7,
+        "description": "you know I think high passage I genuinely think chir toxicity can change.",
+        "matched_terms": [
+          "passage",
+          "toxicity"
+        ],
+        "location": "microscopy_station",
+        "track_ids": [],
+        "event_confidence": null,
+        "basis": "ASR_keyword_matched_speech; may_be_discussion_rather_than_a_sample_observation",
+        "review_status": "unreviewed",
+        "interpretation": "Reported words only; no cell-health, differentiation or chemical-identity conclusion."
+      },
+      {
+        "record_type": "reported_response_candidate",
+        "action": "response_related_speech",
+        "start_s": 155.7,
+        "end_s": 163.66,
+        "description": "I saw a paper that came out about how like if cells are in like the G1 phase of the cell cycle",
+        "matched_terms": [
+          "cells",
+          "cell"
+        ],
+        "location": "microscopy_station",
+        "track_ids": [],
+        "event_confidence": null,
+        "basis": "ASR_keyword_matched_speech; may_be_discussion_rather_than_a_sample_observation",
+        "review_status": "unreviewed",
+        "interpretation": "Reported words only; no cell-health, differentiation or chemical-identity conclusion."
+      },
+      {
+        "record_type": "reported_response_candidate",
+        "action": "response_related_speech",
+        "start_s": 163.66,
+        "end_s": 169.9,
+        "description": "they're much more susceptible to the kind of the toxicity.",
+        "matched_terms": [
+          "toxicity"
+        ],
+        "location": "microscopy_station",
+        "track_ids": [],
+        "event_confidence": null,
+        "basis": "ASR_keyword_matched_speech; may_be_discussion_rather_than_a_sample_observation",
+        "review_status": "unreviewed",
+        "interpretation": "Reported words only; no cell-health, differentiation or chemical-identity conclusion."
+      }
+    ]
+  },
+  "unsupported_critical_properties": [
+    "Bottle cap state and exact open duration",
+    "Plate lid state and exact uncovered duration",
+    "Aspiration versus dispense, volume and well identity",
+    "Persistent vessel identity across occlusion and recordings"
+  ],
+  "readiness": "Reviewable offline extraction; not a validated autonomous experiment record"
+}

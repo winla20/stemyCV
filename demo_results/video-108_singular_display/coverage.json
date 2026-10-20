@@ -1,0 +1,110 @@
+[
+  {
+    "label": "gloved hand",
+    "start_s": 64,
+    "end_s": 75,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "tool_unwrap",
+    "evaluated_frames": 330,
+    "frames_with_class_prediction": 53,
+    "prediction_presence_fraction": 0.1606,
+    "longest_no_prediction_gap_s": 3.733,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "label": "gloved hand",
+    "start_s": 75,
+    "end_s": 87,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "bottle_open",
+    "evaluated_frames": 360,
+    "frames_with_class_prediction": 250,
+    "prediction_presence_fraction": 0.6944,
+    "longest_no_prediction_gap_s": 0.667,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "label": "multiwell plate",
+    "start_s": 87,
+    "end_s": 114,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "plate_work",
+    "evaluated_frames": 810,
+    "frames_with_class_prediction": 434,
+    "prediction_presence_fraction": 0.5358,
+    "longest_no_prediction_gap_s": 3.7,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "label": "multiwell plate",
+    "start_s": 139,
+    "end_s": 163,
+    "basis": "inferred_phase_expectation",
+    "phase_id": "plate_work_2",
+    "evaluated_frames": 720,
+    "frames_with_class_prediction": 612,
+    "prediction_presence_fraction": 0.85,
+    "longest_no_prediction_gap_s": 1.433,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 14,
+    "end_s": 18,
+    "label": "bottle",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 120,
+    "frames_with_class_prediction": 74,
+    "prediction_presence_fraction": 0.6167,
+    "longest_no_prediction_gap_s": 0.633,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 77,
+    "end_s": 86,
+    "label": "bottle",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 270,
+    "frames_with_class_prediction": 141,
+    "prediction_presence_fraction": 0.5222,
+    "longest_no_prediction_gap_s": 3.633,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 91,
+    "end_s": 113,
+    "label": "pipette",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 660,
+    "frames_with_class_prediction": 128,
+    "prediction_presence_fraction": 0.1939,
+    "longest_no_prediction_gap_s": 12.8,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 139,
+    "end_s": 162,
+    "label": "pipette",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 690,
+    "frames_with_class_prediction": 46,
+    "prediction_presence_fraction": 0.0667,
+    "longest_no_prediction_gap_s": 10.533,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  },
+  {
+    "start_s": 120,
+    "end_s": 125,
+    "label": "pipette controller",
+    "basis": "inferred_critical_visibility_window",
+    "phase_id": null,
+    "evaluated_frames": 150,
+    "frames_with_class_prediction": 52,
+    "prediction_presence_fraction": 0.3467,
+    "longest_no_prediction_gap_s": 1.433,
+    "interpretation": "Any instance of this class may satisfy presence; identity and actual visibility still require review. This is not recall."
+  }
+]

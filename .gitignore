@@ -43,6 +43,13 @@ models/
 !data/demo/README.md
 !data/demo/manifest.json
 
+# Portable processed results are included; viewer JS/HTML is rebuilt locally.
+!demo_results/*/source_browser.mp4
+demo_results/index.html
+demo_results/data.js
+demo_results/*/frames.js
+demo_results/*/temporal.js
+
 # Original brainstorm document is reference material, not application source.
 /Iteratively brainstorming....pdf
 *.log

@@ -1,0 +1,74 @@
+{
+  "schema_version": "stemy.workflow.run.v1",
+  "recording_id": "video-108_singular_display",
+  "created_at_utc": "2026-10-10T04:47:25.276524+00:00",
+  "model": "yoloe-26s-seg.pt",
+  "prompt_mode": "text",
+  "classes": [
+    "gloved hand",
+    "bottle",
+    "multiwell plate",
+    "pipette",
+    "pipette controller",
+    "spray bottle"
+  ],
+  "input_size": 640,
+  "confidence_threshold": 0.2,
+  "compute_precision": "fp16",
+  "batch_size": 8,
+  "processed_frames": 5400,
+  "processed_fps": 30.0,
+  "duration_s": 180.0,
+  "width": 716,
+  "height": 960,
+  "processing_loop_s": 73.53,
+  "processing_throughput_fps": 20.21,
+  "timing_scope": "Current processing segment only; earlier interrupted work excluded",
+  "segment_start_frame": 3914,
+  "resume_identity_boundary_s": 130.46666666666667,
+  "detections_by_class": {
+    "bottle": 4484,
+    "pipette controller": 3635,
+    "pipette": 957,
+    "gloved hand": 6784,
+    "multiwell plate": 3653,
+    "spray bottle": 159
+  },
+  "frames_with_class_prediction": {
+    "bottle": 3903,
+    "pipette controller": 2275,
+    "pipette": 746,
+    "gloved hand": 3675,
+    "multiwell plate": 2297,
+    "spray bottle": 159
+  },
+  "source_manifest": {
+    "recording_id": "video-108_singular_display",
+    "original_path": "data/demo/video-108_singular_display.mov",
+    "original_sha256": "fb902972c25bd59ab9f319e9cc6d892b041165562ebfe1a70371274f76847ead",
+    "review_video": "demo_results/video-108_singular_display/source_browser.mp4",
+    "review_video_sha256": "03076d8af5a247240c70bde768f73b03c3d857b5755bc03c507974c84afd89f5",
+    "review_fps": 30,
+    "recording_time_from_metadata": "2026-10-09T21:33:24Z",
+    "timestamp_basis": "Seconds in timestamp-normalized 30 fps review copy; audio retained. Source recordings are unchanged.",
+    "path_basis": "repository_root"
+  },
+  "protocol_status": "inferred_from_video_not_an_authoritative_SOP",
+  "review_status": "unreviewed",
+  "limitations": [
+    "Detection presence is not verified recall or accuracy.",
+    "Frame scores are not calibrated event probabilities.",
+    "Track IDs are local to a recording and location epoch, not persistent sample identities.",
+    "Image-space color, area and motion do not measure liquid volume, cellular growth or sterility."
+  ],
+  "processing_breakdown_s": {
+    "decode_s": 2.986,
+    "detector_tracking_s": 32.055,
+    "camera_motion_s": 7.24,
+    "mask_properties_export_s": 31.133
+  },
+  "host_model_device": "cpu",
+  "detector_device": "cuda:0",
+  "peak_cuda_allocated_mb": 368.2,
+  "cuda_peak_scope": "Process lifetime, including any earlier recordings in that process; excludes other GPU/driver usage."
+}

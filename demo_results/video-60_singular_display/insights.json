@@ -1,0 +1,43 @@
+{
+  "recording_id": "video-60_singular_display",
+  "event_counts": {
+    "visibility_prompt_candidate": 2,
+    "visual_interpretation_candidate": 2,
+    "object_relation_candidate": 9
+  },
+  "temporary_tracks": 111,
+  "microvariation_candidates": [
+    {
+      "metric": "pipette_plate_proximity_intervals",
+      "value": 0,
+      "unit": "candidate_intervals",
+      "limitations": "Depends on shaft/tip detection and temporary track identity; not a count of verified dispense/aspirate actions."
+    },
+    {
+      "metric": "visibility_gap_intervals",
+      "value": 2,
+      "unit": "intervals",
+      "limitations": "Replay prompts from inferred requirements; actual detector misses versus camera occlusion are unresolved."
+    }
+  ],
+  "experiment_response": {
+    "cell_morphology": "not_observed_at_cell_resolution",
+    "growth_rate": null,
+    "spontaneous_differentiation": null,
+    "final_outcome": null,
+    "required_inputs": [
+      "Time-stamped microscopy images from the same sample and comparable fields",
+      "Pixel-size calibration and acquisition metadata",
+      "Sample/plate/well IDs",
+      "Recorded final outcome and any assay measurements"
+    ],
+    "response_related_speech_candidates": []
+  },
+  "unsupported_critical_properties": [
+    "Bottle cap state and exact open duration",
+    "Plate lid state and exact uncovered duration",
+    "Aspiration versus dispense, volume and well identity",
+    "Persistent vessel identity across occlusion and recordings"
+  ],
+  "readiness": "Reviewable offline extraction; not a validated autonomous experiment record"
+}
