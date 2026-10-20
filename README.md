@@ -31,6 +31,7 @@ Invoke-WebRequest https://github.com/ultralytics/assets/releases/download/v8.4.0
 
 ## Handoff
 
+- **[Short team handoff](docs/TEAM_HANDOFF.md):** shareable run instructions and frontend/backend responsibilities.
 - **[Integration guide](docs/HANDOFF.md):** entry points, output files and frontend/backend work.
 - **[Event schema](schemas/event.schema.json)** and **[synthetic example](examples/event.json)** for integration.
 - **[Earlier reports](docs/archive/README.md):** results, limitations and previous experiments.
